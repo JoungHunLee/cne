@@ -611,6 +611,50 @@ ol {
     position: relative;
 }
 
+
+
+#new_hd .hd_con2 {
+    width: 100%;
+    height: 100px;
+    position: relative;
+	background: #57BBAD;
+}
+
+
+#new_hd .hd_con3 {
+    width: 100%;
+    height: 100px;
+    position: relative;
+	background: #E593B8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #new_hd.hd_active .hd_con {
     padding-bottom: 20px;
 }
