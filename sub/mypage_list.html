@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>모꼬지list</title>
+
+  <!-- 공통 css -->
+  <link rel="stylesheet" href="../css/common.css"/>
+
+  <!-- style css -->
+  <link rel="stylesheet" href="../css/style.css"/>
+
+  <!-- 리셋 css -->
+  <link rel="stylesheet" href="../css/reset.css"/>
+
+  <!-- 서브 css -->
+  <link rel="stylesheet" href="../css/sub.css"/>
+  <link rel="stylesheet" href="../css/sub_design.css"/>
+
+  <!-- jquery cdn -->
+  <script src="../js/jquery-3.2.1.min.js"></script>
+  <script src="../js/jquery-1.12.4.min.js"></script>
+
+ </head>
+ <body>
+
+
+
+
+
+<!-- header start -->
+
+<header id="new_hd" class="hd_wrap">
+  <div class="hd_area">
+      <div class="hd_con">
+          <div class="hd_size">
+              <div class="logo">
+                  <a href="#">
+                      <span></span>
+                  </a>
+              </div>
+              <nav class="nav_con">
+                  <div class="top_nav">
+
+                  </div>
+                  <!--메뉴-->
+                  <div class="menu_nav">
+<ul class="nav_box">
+<li class="nav_box_ob">
+      <a href="#">소통</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">소통</a></li>
+  <li><a href="#">모꼬지</a></li>
+  <li><a href="#">한마당</a></li>
+      </ul>
+  </li>
+  <li id="port" class="nav_box_ob">
+      <a href="#">나눔</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">나눔</a></li>
+  <li><a href="#">모꼬지</a></li>
+  <li><a href="#">희망나눔</a></li>
+      </ul>
+  </li>
+<li id="port" class="nav_box_ob">
+      <a href="#">토론</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">토론</a></li>
+  <li><a href="#">모꼬지</a></li>
+  <li><a href="#">학생 설문</a></li>
+</ul>
+  </li>
+<li id="port" class="nav_box_ob">
+      <a href="#">제안</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">제안</a></li>
+  <li><a href="#">모꼬지</a></li>
+  <li><a href="#">제안 결과</a></li>
+</ul>
+  </li>
+<li id="port" class="nav_box_ob">
+      <a href="#">들락날락소개</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">들락날락소개</a></li>
+  <li><a href="#">모꼬지</a></li>
+  <li><a href="#">공지사항</a></li>
+  <li><a href="#">질의응답</a></li>
+</ul>
+  </li>
+</ul>
+
+<ul class="sns_wrap">
+<li><a href="#"><img src="../images/common/ch.svg" alt="카카오톡 채널 아이콘 이미지"></a></li>
+<li><a href="#"><img src="../images/common/inst.svg" alt="인스타 아이콘 이미지"></a></li>
+<li>
+<div class="bell_wrap">
+  <img class="bell_new" src="../images/common/bell_new.png" alt="알림new이미지">
+  <a href="#"><img src="../images/common/bell.svg" alt="알림 아이콘 이미지"></a>
+</li>
+<li><a href="#"><img src="../images/common/search.svg" alt="돋보기 아이콘 이미지"></a></li>
+</ul>
+
+<ul class="login_wrap">
+<li>
+<div class="login_cont">
+  <img src="../images/common/pofile.png" alt="로그인 후 이미지">
+  <p>홍길동</p>
+  <button><img src="../images/common/triangle01.png" alt="아래 화살표 이미지"></button>
+</div>
+</li>
+</ul>	
+</div>     
+
+
+<div class="m_content01_wrap">
+<div class="m_content01_wrap_l">
+<ul>
+<li><a href="#"><img src="../images/common/mobile_img01.png" alt="모바일 오늘톡 이미지"/></a></li>
+<li><a href="#"><img src="../images/common/mobile_img02.png" alt="모바일 알림 이미지"/></a></li>
+</ul>
+</div>
+<div class="m_content01_wrap_r">
+<div class="m_bars">
+<a href="#">
+  <span class="bars bars_01"></span>
+  <span class="bars bars_02"></span>
+  <span class="bars bars_03"></span>
+</a>
+</div>
+</div>
+</div>
+
+<!--메뉴end-->
+                  
+              </nav>
+          </div>
+      </div>
+  </div>
+<div class="header_bottom_wrap">
+<div class="header_bottom_cont">
+  <img src="../images/sub/talk_logo.svg" alt="들락날락 로고"/>
+  <img src="../images/sub/talk02.svg" alt="오늘톡 로고"/>
+  <button type="button" onclick="location.href='today_talk_list.html' ">바로가기<img src="../images/sub/talk_arrow_right.svg" alt="오늘톡 화살표 아이콘 이미지"/></button>
+</div>
+</div>
+</header>
+
+
+<!-- 모바일 시작 -->
+<div class="m_nav_wrap">
+  <div class="m_nav_area">
+      <div class="close_btn">
+          <a href="#"><img src="../images/common/mobile__btn_close.png" alt="모바일 닫기 버튼 이미지"/></a>
+      </div>
+      <div class="m_logout_wrap">
+  <a href="#"><img src="../images/common/mobile_img03.png" alt="모바일 로그아웃 이미지"/>로그아웃</a>
+</div>
+<!-- 모바일 로그인 후 프로필 영역 -->
+<div class="m_login_profil_wrap">
+  <div class="m_login_profil_wrap_l">
+    <img src="../images/common/mobile_img04.png" alt="모바일 로그인 후 프로필 이미지"/>
+  </div>
+  <div class="m_login_profil_wrap_r">
+    <a href="#"><span>홍길동</span>님<img src="../images/common/mobile_img05.png" alt="모바일 로그인 후 프로필 이미지"/></a>
+    <p>최근접속일 2022.11.30. 21:35:19</p>
+    <ul>
+      <li><a href="#">나의활동</a></li>
+      <li><a href="#">회원정보</a></li>
+      <li><a href="#">모꼬지</a></li>
+    </ul>
+  </div>
+</div>
+<!-- 모바일 로그인 후 프로필 영역 End. -->
+      <nav class="m_nav">
+          <ul class="m_nav_box">
+    <li class="m_nav_ob">
+                  <a href="#">소통<span></span></a>
+                  <ul class="m_sub_nav">
+                      <li><a href="#">모꼬지</a></li>
+        <li><a href="#">한마당</a></li>
+                  </ul>
+              </li>
+
+    
+              <li class="m_nav_ob">
+                  <a href="#">나눔 <span></span></a>
+                  <ul class="m_sub_nav">
+        <li><a href="#">모꼬지</a></li>
+        <li><a href="#">희망나눔</a></li>
+                  </ul>
+              </li>
+
+    <li class="m_nav_ob">
+                  <a href="#">토론 <span></span></a>
+                  <ul class="m_sub_nav">
+        <li><a href="#">모꼬지</a></li>
+        <li><a href="#">학생설문</a></li>
+                  </ul>
+              </li>
+    <li class="m_nav_ob">
+                  <a href="#">제안 <span></span></a>
+                  <ul class="m_sub_nav">
+        <li><a href="#">모꼬지</a></li>
+        <li><a href="#">제안결과</a></li>
+                  </ul>
+              </li>
+    <li class="m_nav_ob">
+                  <a href="#">들락날락소개 <span></span></a>
+                  <ul class="m_sub_nav">
+        <li><a href="#">모꼬지</a></li>
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">질의응답</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </nav>
+  </div>
+</div>
+<div class="m_bg" style="display: none;"></div>
+
+<!-- header End. -->
+
+ <!-- wrapper start -->
+ <div id="wrapper">
+    <div id="container">
+      <!-- 왜 따로 만든지 모르겠음 -->
+      <div class="head_bg">
+
+      </div>
+      <!-- 시작 -->
+  		<section id="mypage">
+        <div class="page_head_wrap">
+          <ul class="page_navi_box">
+            <li class="home"><span>홈</span></li>
+            <li>제안</li>
+            <li>학생제안</li>
+          </ul>
+          <h2 class="page_title">mypage</h2>
+          <ul class="mypage_deth">
+            <li class="current"><a href="#">나의 활동내역</a></li>
+            <li><a href="#">마일리지</a></li>
+            <li><a href="#">회원정보</a></li>
+          </ul>
+        </div>
+
+        <div class="my_page_content_wrap">
+          <div class="con_left">
+            <div class="user_info_wrap">
+              <div class="user_info_box">
+                <div class="img_box">
+                  <img src="../images/sub/user_img.png" alt="프로필 이미지">
+                </div>
+                <div class="user_info">
+                  <span class="user_name">홍길동</span>
+                  <span class="user_school">길산중학교</span>
+                </div>
+                <a class="user_info_re" href="#">회원정보수정</a>
+              </div>
+              <a class="user_btn" href="#"><span>포인트</span><span class="point">1,047</span></a>
+              <a class="user_btn" href="#"><span>즐겨찾기 모꼬지</span><span class="count">24</span></a>
+              <a class="user_btn" href="#"><span>댓글관리</span><span class="count">15</span></a>
+            </div>
+
+            <div class="user_action_btn_list">
+              <a class="user_action_btn current" href="#">전체 나의 활동</a>
+              <a class="user_action_btn" href="#">나의 모꼬지</a>
+              <a class="user_action_btn" href="#">가입 모꼬지</a>
+              <a class="user_action_btn" href="#">한마당</a>
+              <a class="user_action_btn" href="#">소식 나눔</a>
+              <a class="user_action_btn" href="#">희망 나눔</a>
+              <a class="user_action_btn" href="#">학생 토론</a>
+              <a class="user_action_btn" href="#">학생 설문</a>
+              <a class="user_action_btn" href="#">학생 제안</a>
+            </div>
+          </div>
+          <div class="con_right">
+            <div class="search_wrap">
+              <ul class="radios">
+                <li>
+                  <input id="s_radio_1" type="radio" name="s_radio" value="" checked>
+                  <label for="s_radio_1"><span>일주일</span></label>
+                </li>
+                <li>
+                  <input id="s_radio_2" type="radio" name="s_radio" value="">
+                  <label for="s_radio_2"><span>15일</span></label>
+                </li>
+                <li>
+                  <input id="s_radio_3" type="radio" name="s_radio" value="">
+                  <label for="s_radio_3"><span>1개월</span></label>
+                </li>
+                <li>
+                  <input id="s_radio_4" type="radio" name="s_radio" value="">
+                  <label for="s_radio_4"><span>3개월</span></label>
+                </li>
+              </ul>
+              <input class="date_input first" type="date" name="" value="2022-12-24">
+              <span class="to">~</span>
+              <input class="date_input last" type="date" name="" value="">
+              <input class="search_input" type="text" name="" value="" placeholder="검색어를 입력하세요">
+              <button class="search_btn" type="submit" name="button">조회</button>
+            </div>
+
+            <div class="con_wrap">
+              <div class="cont_items">
+                <span class="title">
+                  나의 모꼬지
+                  <a class="more" href="#" title="더보기"></a>
+                </span>
+                <div class="cont">
+                  <span>해당 게시글이 없습니다</span>
+                </div>
+              </div>
+              <div class="cont_items">
+                <span class="title">
+                  가입 모꼬지
+                  <a class="more" href="#" title="더보기"></a>
+                </span>
+                <div class="cont">
+                  <span>해당 게시글이 없습니다</span>
+                </div>
+              </div>
+              <div class="cont_items">
+                <span class="title">
+                  한마당
+                  <a class="more" href="#" title="더보기"></a>
+                </span>
+                <div class="cont">
+                  <span>해당 게시글이 없습니다</span>
+                </div>
+              </div>
+              <div class="cont_items">
+                <span class="title">
+                  소식 나눔
+                  <a class="more" href="#" title="더보기"></a>
+                </span>
+                <div class="cont">
+                  <span>해당 게시글이 없습니다</span>
+                </div>
+              </div>
+              <div class="cont_items">
+                <span class="title">
+                  희망 나눔
+                  <a class="more" href="#" title="더보기"></a>
+                </span>
+                <div class="cont">
+                  <span>해당 게시글이 없습니다</span>
+                </div>
+              </div>
+              <div class="cont_items">
+                <span class="title">
+                  학생 토론
+                  <a class="more" href="#" title="더보기"></a>
+                </span>
+                <div class="cont">
+                  <span>해당 게시글이 없습니다</span>
+                </div>
+              </div>
+              <div class="cont_items">
+                <span class="title">
+                  학생 설문
+                  <a class="more" href="#" title="더보기"></a>
+                </span>
+                <div class="cont">
+                  <span>해당 게시글이 없습니다</span>
+                </div>
+              </div>
+              <div class="cont_items">
+                <span class="title">
+                  학생 제안
+                  <a class="more" href="#" title="더보기"></a>
+                </span>
+                <div class="cont">
+                  <span>해당 게시글이 없습니다</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  		</section>
+    </div>
+  </div>
+<!-- wrapper End. -->
+
+<!-- footer start -->
+<div id="footer">
+	<div class="container">
+		<div class="footer_content">
+			<address>
+				[32255] 충남 홍성군 홍북읍 선화로 22대표전화 : 041-640-7413<br>
+				COPYRIGHTⓒ 2020. 들락날락. ALL RIGHTS RESEVED.
+			</address>
+			<div class="footer_logo">
+				<img src="../images/common/footer_logo.svg" alt="풋터 충청남도교육청 로고">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer End. -->
+
+
+<!-- 헤더 스크립트 영역 -->
+<script type="text/javascript">
+$(function () {
+    // case2
+    $('a[href="#"]').click(function (e) {
+        e.preventDefault();
+    });
+
+    $(".sub_nav_box>li>a").click(function (e) {
+        var link = $(this);
+        var item = link.parent(".nav_box_ob");
+
+        if (item.hasClass("nav_active")) {
+            item.removeClass("nav_active").children("a").removeClass("nav_active");
+        } else {
+            item.addClass("nav_active").children("a").addClass("nav_active");
+        }
+
+        if (item.children(".nav_box").length > 0) {
+            var href = link.attr("href");
+            link.attr("href", "#");
+            setTimeout(function () {
+                link.attr("href", href);
+            }, 300);
+            e.preventDefault();
+        }
+    })
+    $(".sub_nav_box>li>a").each(function () {
+        var link = $(this);
+        if (link.get(0).href === location.href) {
+            link.addClass("nav_active").parents("li").addClass("nav_active");
+            return false;
+        }
+    });
+
+    $(".nav_box_ob").mouseover(function () {
+        $("#new_hd").addClass("hd_active");
+        $(".sub_nav_box").stop().slideDown(200);
+    });
+
+    $("#new_hd").mouseleave(function () {
+        $("#new_hd").removeClass("hd_active");
+        $(".sub_nav_box").stop().slideUp(100);
+    });
+
+    $(".m_nav_ob > a").click(function () {
+        //slide up all the link lists
+        $(".m_sub_nav").slideUp();
+        $(".m_nav_ob > a").removeClass("m_nav_active");
+        //slide down the link list below the h3 clicked - only if its closed
+        if (!$(this).next().is(":visible")) {
+            $(this).next().slideDown();
+            $(this).addClass("m_nav_active");
+        }
+    });
+
+    $(".m_bars").click(function () {
+        $(".m_nav_wrap").addClass("m_active");
+        $(".m_bg").fadeIn(300);
+    });
+
+    $(".close_btn").click(function () {
+        $(".m_nav_wrap").removeClass("m_active");
+        $(".m_bg").fadeOut(300);
+    });
+
+	$(window).on("scroll", function () {
+        if ($(this).scrollTop() >= 100) {
+            $("#new_hd").addClass("active");
+        } else {
+            $("#new_hd").removeClass("active");
+        }
+    });
+
+    function scrollNav() {
+        if ($(this).scrollTop() >= 100) {
+            $("#new_hd").addClass("active");
+        } else {
+            $("#new_hd").removeClass("active");
+        }
+    }
+    scrollNav();
+
+});
+</script>
+
+<!-- 모바일 헤더 스크립트 영역 -->
+<script type="text/javascript">
+$(document).ready(function () {
+    $(".m_bars").click(function () {
+        $(".m_nav_wrap").addClass("m_active");
+        $(".m_bg").fadeIn(300);
+    });
+    $(".close_btn").click(function () {
+        $(".m_nav_wrap").removeClass("m_active");
+        $(".m_bg").fadeOut(300);
+    });
+});
+</script>
+
+<!-- 헤더 오늘톡 스크립트 영역 -->
+<script type="text/javascript">
+$('.nav_box > li > a').mouseover(function () {
+    $('.header_bottom_wrap').show();
+});
+
+$('#wrapper').mouseout(function () {
+    $('.header_bottom_wrap').stop().slideUp(100);
+});
+</script>
+
+
+ </body>
+</html>

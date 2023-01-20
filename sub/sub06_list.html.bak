@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>학생설문 list</title>
+  
+  <!-- 공통 css -->
+  <link rel="stylesheet" href="../css/common.css"/>
+
+  <!-- style css -->
+  <link rel="stylesheet" href="../css/style.css"/>
+
+  <!-- 리셋 css -->
+  <link rel="stylesheet" href="../css/reset.css"/>
+
+  <!-- 서브 css -->		
+  <link rel="stylesheet" href="../css/sub.css"/>
+
+  <!-- jquery cdn -->
+  <script src="../js/jquery-3.2.1.min.js"></script>
+  <script src="../js/jquery-1.12.4.min.js"></script>
+
+ </head>
+ <body>
+
+
+
+	
+
+<!-- header start -->
+
+<header id="new_hd" class="hd_wrap">
+	<div class="hd_area">
+		<div class="hd_con">
+			<div class="hd_size">
+				<div class="logo">
+					<a href="#">
+						<span></span>
+					</a>
+				</div>
+				<nav class="nav_con">
+					<div class="top_nav">
+
+					</div>
+					<!--메뉴-->
+					<div class="menu_nav">
+<ul class="nav_box">
+<li class="nav_box_ob">
+      <a href="#">소통</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">소통</a></li>
+  <li><a href="sub01_list.html">모꼬지</a></li>
+  <li><a href="sub02_list.html">한마당</a></li>
+      </ul>
+  </li>
+  <li id="port" class="nav_box_ob">
+      <a href="#">나눔</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">나눔</a></li>
+  <li><a href="sub03_list.html">소식나눔</a></li>
+  <li><a href="sub04_list.html">희망나눔</a></li>
+      </ul>
+  </li>
+<li id="port" class="nav_box_ob">
+      <a href="#">토론</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">토론</a></li>
+  <li><a href="sub05_list.html">학생토론</a></li>
+  <li><a href="sub06_list.html">학생설문</a></li>
+</ul>
+  </li>
+<li id="port" class="nav_box_ob">
+      <a href="#">제안</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">제안</a></li>
+  <li><a href="sub07_list.html">학생제안</a></li>
+  <li><a href="sub08_list.html">제안결과</a></li>
+</ul>
+  </li>
+<li id="port" class="nav_box_ob">
+      <a href="#">들락날락소개</a>
+      <ul class="sub_nav_box">
+          <li><a href="#">들락날락소개</a></li>
+  <li><a href="introduce.html">소개</a></li>
+  <li><a href="#">공지사항</a></li>
+  <li><a href="#">질의응답</a></li>
+</ul>
+  </li>
+</ul>
+
+<ul class="sns_wrap">
+	<li><a href="#"><img src="../images/common/ch.svg" alt="카카오톡 채널 아이콘 이미지"></a></li>
+	<li><a href="#"><img src="../images/common/inst.svg" alt="인스타 아이콘 이미지"></a></li>
+	<li>
+		<div class="bell_wrap">
+			<img class="bell_new" src="../images/common/bell_new.png" alt="알림new이미지">
+			<a href="#"><img src="../images/common/bell.svg" alt="알림 아이콘 이미지"></a>
+		</li>
+	<li><a href="#"><img src="../images/common/search.svg" alt="돋보기 아이콘 이미지"></a></li>
+</ul>
+
+<ul class="login_wrap">
+	<li>
+		<div class="login_cont">
+			<img src="../images/common/pofile.png" alt="로그인 후 이미지">
+			<p>홍길동</p>
+			<button><img src="../images/common/triangle01.png" alt="아래 화살표 이미지"></button>
+		</div>
+	</li>
+</ul>	
+</div>     
+
+
+<div class="m_content01_wrap">
+<div class="m_content01_wrap_l">
+	<ul>
+		<li><a href="#"><img src="../images/common/mobile_img01.png" alt="모바일 오늘톡 이미지"/></a></li>
+		<li><a href="#"><img src="../images/common/mobile_img02.png" alt="모바일 알림 이미지"/></a></li>
+	</ul>
+</div>
+<div class="m_content01_wrap_r">
+	<div class="m_bars">
+		<a href="#">
+			<span class="bars bars_01"></span>
+			<span class="bars bars_02"></span>
+			<span class="bars bars_03"></span>
+		</a>
+	</div>
+</div>
+</div>
+
+<!--메뉴end-->
+					
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="header_bottom_wrap">
+		<div class="header_bottom_cont">
+			<img src="../images/sub/talk_logo.svg" alt="들락날락 로고"/>
+			<img src="../images/sub/talk02.svg" alt="오늘톡 로고"/>
+			<button type="button" onclick="location.href='today_talk_list.html' ">바로가기<img src="../images/sub/talk_arrow_right.svg" alt="오늘톡 화살표 아이콘 이미지"/></button>
+		</div>
+	</div>
+</header>
+
+
+<!-- 모바일 시작 -->
+<div class="m_nav_wrap">
+	<div class="m_nav_area">
+		<div class="close_btn">
+			<a href="#"><img src="../images/common/mobile__btn_close.png" alt="모바일 닫기 버튼 이미지"/></a>
+		</div>
+		<div class="m_logout_wrap">
+			<a href="#"><img src="../images/common/mobile_img03.png" alt="모바일 로그아웃 이미지"/>로그아웃</a>
+		</div>
+		<!-- 모바일 로그인 후 프로필 영역 -->
+		<div class="m_login_profil_wrap">
+			<div class="m_login_profil_wrap_l">
+				<img src="../images/common/mobile_img04.png" alt="모바일 로그인 후 프로필 이미지"/>
+			</div>
+			<div class="m_login_profil_wrap_r">
+				<a href="#"><span>홍길동</span>님<img src="../images/common/mobile_img05.png" alt="모바일 로그인 후 프로필 이미지"/></a>
+				<p>최근접속일 2022.11.30. 21:35:19</p>
+				<ul>
+					<li><a href="#">나의활동</a></li>
+					<li><a href="#">회원정보</a></li>
+					<li><a href="#">모꼬지</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 모바일 로그인 후 프로필 영역 End. -->
+		<nav class="m_nav">
+			<ul class="m_nav_box">
+				<li class="m_nav_ob">
+					<a href="#">소통<span></span></a>
+					<ul class="m_sub_nav">
+						<li><a href="#">모꼬지</a></li>
+						<li><a href="#">한마당</a></li>
+					</ul>
+				</li>
+
+				
+				<li class="m_nav_ob">
+					<a href="#">나눔 <span></span></a>
+					<ul class="m_sub_nav">
+						<li><a href="#">모꼬지</a></li>
+						<li><a href="#">희망나눔</a></li>
+					</ul>
+				</li>
+
+				<li class="m_nav_ob">
+					<a href="#">토론 <span></span></a>
+					<ul class="m_sub_nav">
+						<li><a href="#">모꼬지</a></li>
+						<li><a href="#">학생설문</a></li>
+					</ul>
+				</li>
+				<li class="m_nav_ob">
+					<a href="#">제안 <span></span></a>
+					<ul class="m_sub_nav">
+						<li><a href="#">모꼬지</a></li>
+						<li><a href="#">제안결과</a></li>
+					</ul>
+				</li>
+				<li class="m_nav_ob">
+					<a href="#">들락날락소개 <span></span></a>
+					<ul class="m_sub_nav">
+						<li><a href="#">모꼬지</a></li>
+						<li><a href="#">공지사항</a></li>
+						<li><a href="#">질의응답</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+<div class="m_bg" style="display: none;"></div>
+
+<!-- header End. -->
+ 
+ <!-- wrapper start -->
+ <div id="wrapper">
+    <div id="container">
+		<!-- 상단 배너 start -->
+		<section id="sub06_bg">
+			<div class="container">
+				<div class="sbu06_sub_page_nav">
+					<ul>
+						<li><img src="../images/common/home_icon.svg" alt="서브페이지 홈 아이콘 이미지"/></li>
+						<li>토론</li>
+						<li>학생설문</li>
+					</ul>
+				</div>
+				<div class="sub06_banner_title">
+					<p>토론<span>찬반 댓글 토론과 설문조사 참여</span></p>
+				</div>
+				<div class="sub_page_link6">
+					<ul>
+						<li ><a href="sub05_list.html">학생토론</a></li>
+						<li>/</li>
+						<li class="on2"><a href="sub06_list.html">학생설문</a></li>
+					</ul>
+				</div>
+				<img src="../images/sub/sub05_img01.png" alt="서브페이지 상단 배너 학생 이미지">
+			</div>
+		</section>
+		<!-- 상단 배너 End. -->
+
+		<!-- 컨텐츠 start -->
+		<section id="sub01_wrap">
+			<div class="container">
+				
+				
+
+				<!-- 상단 두번째 텝메뉴 -->
+				<div id="tabbtnbox06">
+					<button class="tabbtn06 tactive06" type="button">
+						 <span>진행중 소식나눔</span>
+					</button>
+					<button class="tabbtn06" type="button">
+						 <span>종료된 소식나눔</span>
+					</button> 
+					<div class="tabbtnsolid06"></div> 
+	 			 </div>
+				 <!-- 상단 두번째 텝메뉴  End. -->
+
+				 
+
+				
+				
+				<!-- search_bar_wrap start -->
+				<div class="search_bar_wrap6">
+					<ul>
+						<li>
+							<select id="zone" name="zone" class="selectBox" title="검색어 구분 선택">
+                                <option value="">전체</option>
+								<option value="전체1">전체1</option>
+								<option value="전체2">전체2</option>
+                            </select>
+						</li>
+						<li><input title="검색어를 입력하세요" placeholder="검색어를 입력하세요" class="search_input" type="text" value=""></li>
+						<li><button>검색<img src="../images/sub/btn_icon01.png" alt="돋보기 아이콘"/></button></li>
+						<li><button type="button" onclick="location.href='sub02_write.html' ">설문등록하기<img src="../images/sub/btn_icon02.png" alt="오른쪽 화살표 아이콘"></button></li>
+					</ul>
+				</div>
+				<!-- search_bar_wrap End. -->
+				
+				<!-- veiw_list_nav start -->
+				<div class="veiw_list_nav6">
+					<div class="veiw_list_nav_l">
+						<p>총 268건 / 6건</p>
+					</div>
+					<div class="veiw_list_nav_r">
+						<ul>
+							<li><button>최신순</button></li>
+							<li><button>참여자수</button></li>
+							<li><button></button></li>
+							<li><button></button></li>
+						</ul>
+					</div>
+				</div>
+				<!-- veiw_list_nav End. -->
+
+				<div id="tabcontbox">
+					<div class="tabcont06">	
+					<!-- veiw_list_wrap start -->
+					<!-- 첫번째 텝메뉴 컨텐츠 start -->
+					<div  id="tab_1" class="tab-content current">
+						<div class="veiw_list_wrap6_01">
+							<div class="view_list_cont">
+							<ul>
+								<li>
+									<div class="veiw_list_wrap6_01_box_wrap">
+										<ul>
+											<li><span>30</span></li>
+											<li>
+												<div class="veiw_list_wrap6_01_box01">
+													<h2>인간 유전자는 만성질환을 치료할 수 있는 방법이다</h2>
+													<ul>
+														<li>설문기간</li>
+														<li>2022-11-18(금)~2022-12-18(일)</li>
+														<li>D-12</li>
+														<li>작성자<span>홍길동</span></li>
+													</ul>
+													<div class="Keywords06">
+														<ul>
+															<li>#지역토론</li>
+															<li>#지역:전체</li>
+															<li>#학교급:전체</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li><span>참여<span>238</span>명</span>
+												<a href="#">결과보기</a>
+											</li>
+											<li><button type="설문하기" onclick="location.href='sub06_view.html'">설문하기</button></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="veiw_list_wrap6_01_box_wrap">
+										<ul>
+											<li><span>30</span></li>
+											<li>
+												<div class="veiw_list_wrap6_01_box01">
+													<h2>인간 유전자는 만성질환을 치료할 수 있는 방법이다</h2>
+													<ul>
+														<li>설문기간</li>
+														<li>2022-11-18(금)~2022-12-18(일)</li>
+														<li>D-12</li>
+														<li>작성자<span>홍길동</span></li>
+													</ul>
+													<div class="Keywords06">
+														<ul>
+															<li>#지역토론</li>
+															<li>#지역:전체</li>
+															<li>#학교급:전체</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li><span>참여<span>238</span>명</span>
+												<a href="#">결과보기</a>
+											</li>
+											<li><button type="설문하기">설문하기</button></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="veiw_list_wrap6_01_box_wrap">
+										<ul>
+											<li><span>30</span></li>
+											<li>
+												<div class="veiw_list_wrap6_01_box01">
+													<h2>인간 유전자는 만성질환을 치료할 수 있는 방법이다</h2>
+													<ul>
+														<li>설문기간</li>
+														<li>2022-11-18(금)~2022-12-18(일)</li>
+														<li>D-12</li>
+														<li>작성자<span>홍길동</span></li>
+													</ul>
+													<div class="Keywords06">
+														<ul>
+															<li>#지역토론</li>
+															<li>#지역:전체</li>
+															<li>#학교급:전체</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li><span>참여<span>238</span>명</span>
+												<a href="#">결과보기</a>
+											</li>
+											<li><button type="설문하기">설문하기</button></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="veiw_list_wrap6_01_box_wrap">
+										<ul>
+											<li><span>30</span></li>
+											<li>
+												<div class="veiw_list_wrap6_01_box01">
+													<h2>인간 유전자는 만성질환을 치료할 수 있는 방법이다</h2>
+													<ul>
+														<li>설문기간</li>
+														<li>2022-11-18(금)~2022-12-18(일)</li>
+														<li>D-12</li>
+														<li>작성자<span>홍길동</span></li>
+													</ul>
+													<div class="Keywords06">
+														<ul>
+															<li>#지역토론</li>
+															<li>#지역:전체</li>
+															<li>#학교급:전체</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li><span>참여<span>238</span>명</span>
+												<a href="#">결과보기</a>
+											</li>
+											<li><button type="설문하기">설문하기</button></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="veiw_list_wrap6_01_box_wrap">
+										<ul>
+											<li><span>30</span></li>
+											<li>
+												<div class="veiw_list_wrap6_01_box01">
+													<h2>인간 유전자는 만성질환을 치료할 수 있는 방법이다</h2>
+													<ul>
+														<li>설문기간</li>
+														<li>2022-11-18(금)~2022-12-18(일)</li>
+														<li>D-12</li>
+														<li>작성자<span>홍길동</span></li>
+													</ul>
+													<div class="Keywords06">
+														<ul>
+															<li>#지역토론</li>
+															<li>#지역:전체</li>
+															<li>#학교급:전체</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li><span>참여<span>238</span>명</span>
+												<a href="#">결과보기</a>
+											</li>
+											<li><button type="설문하기">설문하기</button></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="veiw_list_wrap6_01_box_wrap">
+										<ul>
+											<li><span>30</span></li>
+											<li>
+												<div class="veiw_list_wrap6_01_box01">
+													<h2>인간 유전자는 만성질환을 치료할 수 있는 방법이다</h2>
+													<ul>
+														<li>설문기간</li>
+														<li>2022-11-18(금)~2022-12-18(일)</li>
+														<li>D-12</li>
+														<li>작성자<span>홍길동</span></li>
+													</ul>
+													<div class="Keywords06">
+														<ul>
+															<li>#지역토론</li>
+															<li>#지역:전체</li>
+															<li>#학교급:전체</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li><span>참여<span>238</span>명</span>
+												<a href="#">결과보기</a>
+											</li>
+											<li><button type="설문하기">설문하기</button></li>
+										</ul>
+									</div>
+								</li>
+							</ul>	
+								
+							
+							</div>
+						</div>
+					</div>
+					<!-- veiw_list_wrap End. -->
+					<!-- 첫번째 텝메뉴 End. -->	
+					</div>
+				</div>
+				<div id="tabcontbox">
+					<div class="tabcont">	
+					<!-- veiw_list_wrap start -->
+					<!-- 첫번째 텝메뉴 컨텐츠 start -->
+					<div  id="tab_1" class="tab-content current">
+						<div class="veiw_list_wrap2">
+							<div class="view_list_cont">
+							1
+							</div>
+						</div>
+					</div>
+					<!-- veiw_list_wrap End. -->
+					<!-- 첫번째 텝메뉴 End. -->	
+					</div>
+				</div>
+				
+
+				<!-- 두번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-2" class="tab-content">
+				교육
+				</div>
+				<!-- 두번째 텝메뉴 컨텐츠 End. -->
+				<!-- 3번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-3" class="tab-content">
+				환경
+				</div>
+				<!-- 3번째 텝메뉴 컨텐츠 End. -->
+				<!-- 4번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-4" class="tab-content">
+				안전
+				</div>
+				<!-- 4번째 텝메뉴 컨텐츠 End. -->
+				<!-- 5번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-5" class="tab-content">
+				문화
+				</div>
+				<!-- 5번째 텝메뉴 컨텐츠 End. -->
+				<!-- 6번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-6" class="tab-content">
+					스포츠
+					</div>
+					<!-- 6번째 텝메뉴 컨텐츠 End. -->
+					<!-- 7번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-7" class="tab-content">
+					IT
+					</div>
+					<!-- 7번째 텝메뉴 컨텐츠 End. -->
+					<!-- 8번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-8" class="tab-content">
+					기타
+					</div>
+					<!-- 8번째 텝메뉴 컨텐츠 End. -->
+				
+				
+
+				<!-- veiw_list_wrap btn start -->
+				<div class="veiw_list_wrap_btn6">
+					<button>더보기<img src="../images/sub/content_arrow_bottom.png" alt="아래 화살표 이미지"/></button>
+				</div>
+				<!-- veiw_list_wrap btn End. -->
+			
+			</div>
+		</section>
+		<!-- 컨텐츠 End. -->
+    </div>
+  </div>
+<!-- wrapper End. -->
+
+<!-- footer start -->
+<div id="footer">
+	<div class="container">
+		<div class="footer_content">
+			<address>
+				[32255] 충남 홍성군 홍북읍 선화로 22대표전화 : 041-640-7413<br>
+				COPYRIGHTⓒ 2020. 들락날락. ALL RIGHTS RESEVED.
+			</address>
+			<div class="footer_logo">
+				<img src="../images/common/footer_logo.svg" alt="풋터 충청남도교육청 로고">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer End. -->
+
+
+<!-- 헤더 스크립트 영역 -->
+<script type="text/javascript">
+$(function () {
+    // case2
+    $('a[href="#"]').click(function (e) {
+        e.preventDefault();
+    });
+
+    $(".sub_nav_box>li>a").click(function (e) {
+        var link = $(this);
+        var item = link.parent(".nav_box_ob");
+
+        if (item.hasClass("nav_active")) {
+            item.removeClass("nav_active").children("a").removeClass("nav_active");
+        } else {
+            item.addClass("nav_active").children("a").addClass("nav_active");
+        }
+
+        if (item.children(".nav_box").length > 0) {
+            var href = link.attr("href");
+            link.attr("href", "#");
+            setTimeout(function () {
+                link.attr("href", href);
+            }, 300);
+            e.preventDefault();
+        }
+    })
+    $(".sub_nav_box>li>a").each(function () {
+        var link = $(this);
+        if (link.get(0).href === location.href) {
+            link.addClass("nav_active").parents("li").addClass("nav_active");
+            return false;
+        }
+    });
+
+    $(".nav_box_ob").mouseover(function () {
+        $("#new_hd").addClass("hd_active");
+        $(".sub_nav_box").stop().slideDown(200);
+    });
+
+    $("#new_hd").mouseleave(function () {
+        $("#new_hd").removeClass("hd_active");
+        $(".sub_nav_box").stop().slideUp(100);
+    });
+
+	$(".nav_box_ob").mouseover(function () {
+        $("#new_hd").addClass("hd_active2");
+        $(".sub_nav_box").stop().slideDown(200);
+    });
+
+    $("#new_hd").mouseleave(function () {
+        $("#new_hd").removeClass("hd_active2");
+        $(".sub_nav_box").stop().slideUp(100);
+    });
+
+	$(".nav_box_ob").mouseover(function () {
+        $("#new_hd").addClass("hd_active3");
+        $(".sub_nav_box").stop().slideDown(200);
+    });
+
+    $("#new_hd").mouseleave(function () {
+        $("#new_hd").removeClass("hd_active3");
+        $(".sub_nav_box").stop().slideUp(100);
+    });
+
+    $(".m_nav_ob > a").click(function () {
+        //slide up all the link lists
+        $(".m_sub_nav").slideUp();
+        $(".m_nav_ob > a").removeClass("m_nav_active");
+        //slide down the link list below the h3 clicked - only if its closed
+        if (!$(this).next().is(":visible")) {
+            $(this).next().slideDown();
+            $(this).addClass("m_nav_active");
+        }
+    });
+
+    $(".m_bars").click(function () {
+        $(".m_nav_wrap").addClass("m_active");
+        $(".m_bg").fadeIn(300);
+    });
+
+    $(".close_btn").click(function () {
+        $(".m_nav_wrap").removeClass("m_active");
+        $(".m_bg").fadeOut(300);
+    });
+
+	$(window).on("scroll", function () {
+        if ($(this).scrollTop() >= 100) {
+            $("#new_hd").addClass("active");
+        } else {
+            $("#new_hd").removeClass("active");
+        }
+    });
+
+    function scrollNav() {
+        if ($(this).scrollTop() >= 100) {
+            $("#new_hd").addClass("active");
+        } else {
+            $("#new_hd").removeClass("active");
+        }
+    }
+    scrollNav();
+
+});
+</script>
+
+<!-- 모바일 헤더 스크립트 영역 -->
+<script type="text/javascript">
+$(document).ready(function () {
+    $(".m_bars").click(function () {
+        $(".m_nav_wrap").addClass("m_active");
+        $(".m_bg").fadeIn(300);
+    });
+    $(".close_btn").click(function () {
+        $(".m_nav_wrap").removeClass("m_active");
+        $(".m_bg").fadeOut(300);
+    });
+});
+</script>
+
+<!-- 헤더 오늘톡 스크립트 영역 -->
+<script type="text/javascript">
+$('.nav_box > li > a').mouseover(function () {
+    $('.header_bottom_wrap').show();
+});
+
+$('#wrapper').mouseout(function () {
+    $('.header_bottom_wrap').stop().slideUp(100);	
+});       
+</script>
+
+
+<!-- 텝 메뉴 스크립트 영역 -->
+<script>
+        $('.tab-link').click(function () {
+        var tab_id = $(this).attr('data-tab');
+
+        $('.tab-link').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#" + tab_id).addClass('current');
+
+    });
+</script>
+
+<!-- 상단 두번째 텝메뉴 스크립트 영역 -->
+<script>
+	$(".tabbtn06").click(function() {
+	   var num = $(this).index();
+	   $(".tabcont06").hide();
+	   $(".tabcont06").eq(num).show();
+	   $(".tabbtn06").removeClass("tactive06");
+	   $(this).addClass("tactive06");
+   });
+</script>
+
+<!-- 그래프 스크립트 -->
+<script>
+	$(document).ready(function(){
+		barChart();
+	
+		$(window).resize(function(){
+			barChart();
+		});
+	
+		function barChart(){
+			$('.bar-chart02').find('.progress').each(function(){
+				var itemProgress = $(this),
+				itemProgressWidth = $(this).parent().width() * ($(this).data('persen') / 100);
+				itemProgress.css('width', itemProgressWidth);
+			});
+		}
+	});
+	</script>
+
+
+ </body>
+</html>
