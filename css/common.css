@@ -611,7 +611,7 @@ ol {
     position: relative;
 }
 
-
+/* 소통 헤더 영역 */
 
 #new_hd .hd_con2 {
     width: 100%;
@@ -620,7 +620,7 @@ ol {
 	background: #57BBAD;
 }
 
-
+/* 나눔 헤더 영역 */
 #new_hd .hd_con3 {
     width: 100%;
     height: 100px;
@@ -628,31 +628,28 @@ ol {
 	background: #E593B8;
 }
 
+/* 토론 헤더 영역 */
+#new_hd .hd_con4 {
+    width: 100%;
+    height: 100px;
+    position: relative;
+	background: #6DA9E0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 제안 헤더 영역 */
+#new_hd .hd_con5 {
+    width: 100%;
+    height: 100px;
+    position: relative;
+	background: #EE9A6A;
+}
+/* 소개 헤더 영역 */
+#new_hd .hd_con6 {
+    width: 100%;
+    height: 100px;
+    position: relative;
+	background: #4D8DE7;
+}
 
 
 #new_hd.hd_active .hd_con {
