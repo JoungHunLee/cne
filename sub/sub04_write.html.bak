@@ -7,7 +7,7 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>한마당 write</title>
+  <title>희망나눔 write</title>
   
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
@@ -35,7 +35,7 @@
  
  
  </head>
- <body class="today_talk_view_bg">
+ <body class="sub04_write_bg">
 
 
 
@@ -45,7 +45,7 @@
 
 <header id="new_hd" class="hd_wrap">
 	<div class="hd_area">
-		<div class="hd_con2">
+		<div class="hd_con3">
 			<div class="hd_size">
 				<div class="logo">
 					<a href="../index.html">
@@ -242,11 +242,11 @@
  <!-- wrapper start -->
  <div id="wrapper">
     <div id="container">
-		<section id="sub02_write_wrapper">
+		<section id="sub04_write_wrapper">
 			<div class="container">
 
                 <!-- sub01_write_nav start -->
-				<div class="sub02_write_nav">
+				<div class="sub04_write_nav">
 					<div class="sub_write_nav">
 						<div class="sub_view_nav_cont">
 							<ul>
@@ -255,44 +255,30 @@
 								<li>한마당</li>
 							</ul>
 						</div>
-						<div class="back_btn_wrap">
-							<a href="sub02_list.html"><span><img src="../images/sub/left_arrow.svg" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
+						<div class="back_btn_wrap04">
+							<a href="sub04_list.html"><span><img src="../images/sub/sub_write_icon01.png" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
 						</div>
 					</div>
 				</div>
                 <!-- sub01_write_nav End. -->
 
                 <!-- 상단 컨텐츠 시작 -->
-                <section id="sub02_write_wrap_top">
+                <section id="sub04_write_wrap_top">
                     <div class="container">
-                        <div class="sub_write_top_cont_wrap">
+                        <div class="sub_write_top_cont_wrap04">
                             <div class="sub_write_top_l">
-                                <p>한마당 등록 전<br/>꼭! 읽어주세요.</p>
-                                <img src="../images/sub/sub02_write_img01.png" alt="확성기 아이콘 이미지"/>
+                                <p>희망나눔 등록 전<br/>꼭! 읽어주세요.</p>
+                                <img src="../images/sub/sub_write_icon02.png" alt="확성기 아이콘 이미지"/>
                             </div>
                             <div class="sub_write_top_r">
                                 <ul>
-                                    <li><img src="../images/sub/sub02_write_img03.png" alt="체크 아이콘 이미지"/><span><span class="bold_style">본인이 제작한 영상</span>만 등록해주세요.</span></li>
-                                    <li><img src="../images/sub/sub02_write_img03.png" alt="체크 아이콘 이미지"/><span>관리자 <span class="bold_style">승인 후 등록</span>됩니다.</span></li>
-                                    <li><img src="../images/sub/sub02_write_img03.png" alt="체크 아이콘 이미지"/><span>등록한 영상이 다음과 같은 경우에 해당된다고 판단되는 경우 <span class="bold_style">예고 없이 삭제</span>됩니다.</span></li>
+                                    <li><img src="../images/sub/sub_write_icon04.png" alt="체크 아이콘 이미지"/><span>나만이 아니라<span class="bold_style">여럿을 위한 프로젝트</span>를 등록해주세요.</span></li>
+                                    <li><img src="../images/sub/sub_write_icon04.png" alt="체크 아이콘 이미지"/><span><span class="bold_style">프로젝트가 왜 필요한지</span> 깊게 생각하고, 내용을 구체적으로 작성해주세요.</span></li>
+                                    <li><img src="../images/sub/sub_write_icon04.png" alt="체크 아이콘 이미지"/><span>목표 모금액(50,000포인트)에 도달하면, 세부계획을 검토하고 <span class="bold_style">100~500만원의 예산</span>을 지원합니다.</span></li>
+                                    <li><img src="../images/sub/sub_write_icon04.png" alt="체크 아이콘 이미지"/><span>단순 건의, 오락, 재미를 위한 <span class="bold_style">의미없는 프로젝트는 예고없이 삭제</span>될 수 있습니다.</span></li>
                                 </ul>
-                                <div class="sub_write_top_c_wrap">
-                                    <div class="sub_write_top_c_l">
-                                        <ul>
-                                            <li>타인을 비방하거나 명예를 회손시키는 영상</li>
-                                            <li>공공질서에 위반되는 정보를 유포하는 영상</li>
-                                            <li>영리를 목적으로 하는 광고 영상</li>
-                                        </ul>
-                                    </div>
-                                    <div class="sub_write_top_c_r">
-                                        <ul>
-                                        <li>범죄적 행위에 해당하는 영상</li>
-                                        <li>다른 이용자 또는 제 3자의 저작권 등 기타 권리를 침해하는 영상</li>
-                                        <li>기타 정보통신 관련 법령에 위배되는 영상</li>
-                                    </ul>
-                                    </div>
-                                </div>
-                                <div class="sub_write_top_b_wrap">
+                                
+                                <div class="sub_write_top_b_wrap04">
                                     <ul>
                                         <li><input type="checkbox" id="scales" name="scales" checked>
                                             <label for="scales">위 사항에 모두 동의하고 준수할 것을 약속합니다.</label>
@@ -303,69 +289,169 @@
                             
                         </div>
                     </div>
+                    
+				<img src="../images/sub/sub_write04_icon03.png" alt="한마당write 사람 이미지"/>	
                 </section>
-				<img src="../images/sub/sub02_write_img02.png" alt="한마당write 사람 이미지"/>	
 				<!-- 컨텐츠 start -->
-				<section id="sub02_write_wrap">
+				<section id="sub04_write_wrap">
 					<div class="container">
-						<div class="sub02_write_content">	
+						<div class="sub04_write_content">	
 							<div class="write_cont01">
-                                <ul class="write_keyword">
-                                    <li>한마당</li>
+                                <ul class="write_keyword04_01">
+                                    <li>희망나눔</li>
                                 </ul>
                                 <div class="write_title">
-                                    <h2>동영상등록하기</h2>
+                                    <h2>희망나눔등록하기</h2>
                                 </div>
 							</div>
-                            <div class="sub02_write_content01">
-                                <p>카테고리</p>
+                            <div class="sub04_write_content01_box01">
+                            
+                            <div class="sub04_write_content01_box01_wrap">
+                                <div class="sub04_write_content01_box01_wrap_t">
+                                    <p>새로운 희망</p>
+                                </div>
+                                <div class="sub04_write_content01_box01_wrap_l">
+                                    <p>프로젝트명</p>
+                                </div>
+                                <div class="sub04_write_content01_box01_wrap_r">
+                                    <input tpye="text" placeholder="새로운 희망 프로젝트명을 입력해주세요.">
+                                </div>
+                            </div>
+                            <div class="sub04_write_content01_box02">
+                                <ul>
+                                    <li>모꼬지 설명</li>
+                                    <li><textarea placeholder="최대 1,000자 이내 입력해주세요."></textarea><span>0 / 1,000자</span></li>
+                                </ul>
+                            </div>
+                            <div class="sub04_write_content01_box02_01">
+                                <ul>
+                                    <li>첨부파일</li>
+                                    <li><div class="filebox">
+                                        <input class="upload-name" placeholder="첨부파일 등록(파일용량10MB 제한)" disabled="disabled">
+                                            <label for="ex_filename">파일선택</label> 
+                                            <input type="file" id="ex_filename" class="upload-hidden"> 
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+
+                            <div class="sub04_write_content01_box02">
+
+                            <p>상세내용</p>
+
+
+
+                            <div class="sub04_write_content01">
+                                <p>프로젝트유형</p>
                                 <ul>
                                     <li class="sub02_write_on"> 
                                         <input type="radio" id="but1" name="">
                                         <label for="but1">
                                           <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
-                                        </label>학교</li>
+                                        </label>교육</li>
                                     <li> <input type="radio" id="but2" name="">
                                         <label for="but2">
                                           <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
-                                        </label>동아리</li>
+                                        </label>환경</li>
                                     <li> <input type="radio" id="but3" name="">
                                         <label for="but3">
                                           <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
-                                        </label>크리에이터</li>
+                                        </label>안전</li>
                                     <li> <input type="radio" id="but4" name="">
                                         <label for="but4">
                                           <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
-                                        </label>기타</li>
+                                        </label>문화</li>
+                                        <li> <input type="radio" id="but4" name="">
+                                            <label for="but4">
+                                              <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
+                                            </label>스포츠</li>
+                                            <li> <input type="radio" id="but4" name="">
+                                                <label for="but4">
+                                                  <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
+                                                </label>IT</li>
+                                                <li> <input type="radio" id="but4" name="">
+                                                    <label for="but4">
+                                                      <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
+                                                    </label>기타</li>
+                                </ul>
+                                <div class="sub04_write_content01_box01">
+                                    <div class="sub04_write_content01_box01_l">
+                                        <p>모금기간</p>
+                                    </div>
+                                    <div class="sub04_write_content01_box01_r">
+                                        <div class="input_date_box">
+                                            <input type="date">
+                                           <span>~</span>
+                                           <input type="date">
+                                        </div>
+                                        <div class="input_date_box2">
+                                            <ul>
+                                                <li class="on3"><button type="button">일주일</button></li>
+                                                <li><button type="button">1개월</button></li>
+                                                <li><button type="button">3개월</button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub04_write_content01_box03">
+                                    <ul>
+                                        <li>문제사항</li>
+                                        <li><textarea placeholder="최대 1,000자 이내 입력해주세요."></textarea><span>0 / 1,000자</span></li>
+                                    </ul>
+                                </div>
+                                <div class="sub04_write_content01_box04">
+                                    <ul>
+                                        <li>프로젝트진행</li>
+                                        <li><input type="text" placeholder="프로젝트 진행방법을 입력해주세요."/></li>
+                                        <li><button type="button"><img src="../images/sub/sub04_pluse.png" alt="플러스 아이콘 이미지"/></button></li>
+                                    </ul>
+                                </div>
+                                <div class="sub04_write_content01_box05">
+                                    <div class="sub04_write_content01_box05_l">
+                                        <p>보충자료</p>
+                                    </div>
+                                    <div class="sub04_write_content01_box05_r">
+                                        <div class="sub04_write_content01_box05_btn">
+                                            <button type="button">가져오기</button>
+                                        </div>
+                                        <input type="text" placeholder="자료 가져오기를 클릭해주세요."/>
+                                        <button type="button"><img src="../images/sub/sub04_manurs.png" alt="플러스 아이콘 이미지"/></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="sub04_write_content01_box02">
+                            <div class="sub04_write_content01_box061">
+                                <p>모금액</p>
+                                <ul>
+                                    <li>모금액</li>
+                                    <li><input type="text" placeholder="50,000포인트"/></li>
                                 </ul>
                             </div>
-                            <div class="sub02_write_content02">
-                                <div class="sub02_write_content02_l">
-                                    <p>제목</p>
-                                </div>
-                                <div class="sub02_write_content02_r">
-                                    <input tpye="text" placeholder="제목을 입력해주세요"/>
-                                </div>
+                        </div>
+                        <div class="sub04_write_content01_box02">
+                            <div class="sub04_write_content01_box07">
+                                <ul>
+                                    <li>보유 마일리지</li>
+                                    <li><input type="text" placeholder="12,000"/></li>
+                                </ul>
                             </div>
-                            <div class="sub02_write_content03">
-                                <div class="sub02_write_content03_l">
-                                    <p>내용</p>
-                                </div>
-                                <div class="sub02_write_content03_r">
-                                    <img src="../images/sub/smart_edit.png" alt="스마트에디터 이미지"/>
-                                </div>
+                        </div>
+                        <div class="sub04_write_content01_box02">
+                            <div class="sub04_write_content01_box08">
+                                <ul>
+                                    <li>나의 후원액</li>
+                                    <li><input type="text" placeholder="0"/></li>
+                                </ul>
+                                <p>※ 100포인트 단위로 등록 할 수 있습니다.<br>
+                                    ※ 나의 후원액은 최소 100포인트부터 최대 30,000포인트까지 가능합니다.</p>
                             </div>
-                            <div class="sub02_write_content04">
-                                <div class="sub02_write_content04_l">
-                                    <p>동영상링크</p>
-                                </div>
-                                <div class="sub02_write_content04_r">
-                                    <input tpye="text" placeholder="http://youtube/ovs5Z0txMUY"/>
-                                    <p>※ Youtube URL을 입력해주세요.</p>
-                                    <p>※ 동영상링크는 수정이 불가능합니다.</p>
-                                </div>
-                            </div>
-                            <div class="sub02_write_content05">
+                        </div>
+
+                            <div class="sub04_write_content05">
                                 <ul>
                                      <li><button type="button">등록하기</button></li>
                                      <li><button type="button">취소하기</button></li>
@@ -393,29 +479,9 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
-			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
-		</div>
 </div>
 <!-- footer End. -->
 
-
-<!-- 탑버튼 스크립트 영역 -->
-<script>
-$( document ).ready( function() {
-  $( window ).scroll( function() {
-    if ( $( this ).scrollTop() > 200 ) {
-      $( '.btn_top_1' ).fadeIn();
-    } else {
-      $( '.btn_top_1' ).fadeOut();
-    }
-  });
-  $( '.btn_top_1' ).click( function() {
-    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
-    return false;
-  });
-});
-</script>
 
 <!-- 헤더 스크립트 영역 -->
 <script type="text/javascript">
@@ -459,6 +525,16 @@ $(function () {
 
     $("#new_hd").mouseleave(function () {
         $("#new_hd").removeClass("hd_active");
+        $(".sub_nav_box").stop().slideUp(100);
+    });
+
+    $(".nav_box_ob").mouseover(function () {
+        $("#new_hd").addClass("hd_active2");
+        $(".sub_nav_box").stop().slideDown(200);
+    });
+
+    $("#new_hd").mouseleave(function () {
+        $("#new_hd").removeClass("hd_active2");
         $(".sub_nav_box").stop().slideUp(100);
     });
 
@@ -543,6 +619,23 @@ $(document).ready(function(){
         });
     }); 
 </script>
+
+<!-- 첨부파일 스크립트 영역 -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        var fileTarget = $('.filebox .upload-hidden');
+            fileTarget.on('change', function(){
+                if(window.FileReader){
+                    var filename = $(this)[0].files[0].name;
+                } else {
+                    var filename = $(this).val().split('/').pop().split('\\').pop();
+                }
+        
+                $(this).siblings('.upload-name').val(filename);
+            });
+        }); 
+    </script>
+    
 
  </body>
 </html>

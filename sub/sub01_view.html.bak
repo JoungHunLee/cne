@@ -7,8 +7,8 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>모꼬지list</title>
-
+  <title>모꼬지view</title>
+  
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
 
@@ -18,26 +18,34 @@
   <!-- 리셋 css -->
   <link rel="stylesheet" href="../css/reset.css"/>
 
-  <!-- 서브 css -->
+  <!-- 서브 css -->		
   <link rel="stylesheet" href="../css/sub.css"/>
-  <link rel="stylesheet" href="../css/sub_design.css"/>
 
   <!-- jquery cdn -->
   <script src="../js/jquery-3.2.1.min.js"></script>
   <script src="../js/jquery-1.12.4.min.js"></script>
 
+  <!-- swiper slider -->
+  <link rel="stylesheet" href="../css/swiper.min.css"/>
+  <script src="../js/swiper.min.js"></script>
+
+
+ 
+
+ 
+ 
  </head>
- <body>
+ <body class="content_sub01_view_bg">
 
 
 
-
+	
 
 <!-- header start -->
 
 <header id="new_hd" class="hd_wrap">
 	<div class="hd_area">
-		<div class="hd_con6">
+		<div class="hd_con2">
 			<div class="hd_size">
 				<div class="logo">
 					<a href="../index.html">
@@ -230,164 +238,230 @@
 <div class="m_bg" style="display: none;"></div>
 
 <!-- header End. -->
-
+ 
  <!-- wrapper start -->
  <div id="wrapper">
     <div id="container">
-      <!-- 왜 따로 만든지 모르겠음 -->
-      <div class="head_bg">
+		<!-- 상단 네비 start -->
+<section id="sub01_view_bg">
+			
+				<div class="sub01_view_bg01"></div>
+			<div class="container">
+				<div class="sub_view_nav">
+					<div class="sub_view_nav_cont">
+						<ul>
+							<li><img src="../images/common/home_icon.svg" alt="서브페이지 홈 아이콘 이미지"/></li>
+							<li>소통</li>
+							<li>모꼬지</li>
+						</ul>
+					</div>
+					<div class="back_btn_wrap">
+						<a href="sub01_list.html"><span><img src="../images/sub/left_arrow.svg" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
+					</div>
+				</div>
+			</div>
+				
+		
+		<!-- 상단 네비 End. -->
+		<!-- 컨텐츠 start -->
+				<section id="sub01_view_wrap">
+					<div class="container">
+						<div class="sub01_view_content">
+							<div class="sub01_view_cont_l">
+								<div class="aside_profil_top">
+									<div class="profil_top">
+										<ul>
+											<li><img src="../images/sub/view_profil.png" alt="view페이지 프로필 이미지"/></li>
+											<li>회장<span>최민영</span></li>
+											<li>회원수<span>23명</span></li>
+										</ul>
+									</div>
+									<div class="profil_list">
+										<div class="profil_list_wrap">
+											<img src="../images/sub/view_icon01.png" alt="게시판 아이콘 이미지"/>
+											<p>게시판</p>
+											<p>3</p>
+										</div>
+										<div class="profil_list_wrap">
+											<img src="../images/sub/view_icon02.png" alt="사진첩 아이콘 이미지"/>
+											<p>사진첩</p>
+											<p>14</p>
+										</div>
+										<div class="profil_list_wrap">
+											<img src="../images/sub/view_icon03.png" alt="동영상 아이콘 이미지"/>
+											<p>동영상</p>
+											<p>43</p>
+										</div>
+										<div class="join_btn">
+										<a href="#">가입하기</a>
+										</div>
+									</div>
+								</div>
+								<div class="aside_nav">
+									<ul>
+										<li><a href="#">처음화면</a></li>
+										<li><a href="#">게시판</a></li>
+										<li><a href="#">사진첩</a></li>
+										<li><a href="#">동영상</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="sub01_view_cont_r">
+								<div class="sub01_view_cont01">
+									<p>모꼬지소개</p>
+									<h2>천안중앙고 사제동행 통일역사캠프</h2>
+									<p>청양중 함께 걷는 평화톡톡 근대 역사 탐방</p>
+								</div>
+								<div class="sub01_view_cont02">
+										<!-- Add Arrows -->
+										<div class="swiper-button-next"></div>
+										<div class="swiper-button-prev"></div>
+										<!-- Add Pagination -->
+										<div class="swiper-pagination"></div>	
+										<div class="swiper-container">
+											<div class="swiper-wrapper">
+											  <div class="swiper-slide"><img src="../images/sub/view_slide01.png" alt="슬라이드 이미지"></div>
+											  <div class="swiper-slide"><img src="../images/sub/view_slide01.png" alt="슬라이드 이미지"></div>
+											  <div class="swiper-slide"><img src="../images/sub/view_slide01.png" alt="슬라이드 이미지"></div>
+											</div>
+											
+									  </div>
+								</div>
+								<div class="sub01_view_cont03">
+									<div class="latest_board_wrap">
+										<p>게시판</p>
+										<div class="latest_board_content">
+											<p>해당게시글이 없습니다</p>
+										</div>
+									</div>
+								</div>
+								<div class="sub01_view_cont04">
+									<p>사진첩</p>
+									<div class="view_list_cont">
+										<ul>
+											<li>
+												<a href="#"><div class="view_list_cont_box">
+													<img src="../images/sub/view_img01.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail"/>
+													<div class="view_list_cont_text">
+														<h3>&lt;동아리&gt; 복자여자고등학교 AI수학/융합코딩동아리</h3>
+														<ul>
+															<li><img src="../images/sub/view_icon06.png" alt="게시글 아이콘 이미지"/>3</li>
+															<li><img src="../images/sub/view_icon07.png" alt="그림 아이콘 이미지"/>10</li>
+														</ul>
+													</div>
+												</div>
+												</a>
+											</li>
+											<li>
+												<a href="#"><div class="view_list_cont_box">
+													<img src="../images/sub/view_img02.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail"/>
+													<div class="view_list_cont_text">
+														<h3>&lt;동아리&gt; 복자여자고등학교 AI수학/융합코딩동아리</h3>
+														<ul>
+															<li><img src="../images/sub/view_icon06.png" alt="게시글 아이콘 이미지"/>3</li>
+															<li><img src="../images/sub/view_icon07.png" alt="그림 아이콘 이미지"/>10</li>
+														</ul>
+													</div>
+												</div>
+												</a>
+											</li>
+											<li>
+												<a href="#"><div class="view_list_cont_box">
+													<img src="../images/sub/view_img03.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail"/>
+													<div class="view_list_cont_text">
+														<h3>&lt;동아리&gt; 복자여자고등학교 AI수학/융합코딩동아리</h3>
+														<ul>
+															<li><img src="../images/sub/view_icon06.png" alt="게시글 아이콘 이미지"/>3</li>
+															<li><img src="../images/sub/view_icon07.png" alt="그림 아이콘 이미지"/>10</li>
+														</ul>
+													</div>
+												</div>
+												</a>
+											</li>
+											<li>
+												<a href="#"><div class="view_list_cont_box">
+													<img src="../images/sub/view_img04.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail"/>
+													<div class="view_list_cont_text">
+														<h3>&lt;동아리&gt; 복자여자고등학교 AI수학/융합코딩동아리</h3>
+														<ul>
+															<li><img src="../images/sub/view_icon06.png" alt="게시글 아이콘 이미지"/>3</li>
+															<li><img src="../images/sub/view_icon07.png" alt="그림 아이콘 이미지"/>10</li>
+														</ul>
+													</div>
+												</div>
+												</a>
+											</li>
 
-      </div>
-      <!-- 시작 -->
-  		<section id="mypage">
-        <div class="page_head_wrap">
-          <ul class="page_navi_box">
-            <li class="home"><span>홈</span></li>
-            <li>제안</li>
-            <li>학생제안</li>
-          </ul>
-          <h2 class="page_title">mypage</h2>
-          <ul class="mypage_deth">
-            <li class="current"><a href="mypage_list.html">나의 활동내역</a></li>
-            <li ><a href="mypage_mileage.html">마일리지</a></li>
-            <li><a href="mypage_info.html">회원정보</a></li>
-          </ul>
-        </div>
+										</ul>
+									</div>
+								</div>
+								<div class="sub01_view_cont05">
+									<p>동영상</p>
+									<div class="view_list_cont">
+										<ul>
+											<li>
+												<a href="#"><div class="view_list_cont_box">
+													<img src="../images/sub/view_img05.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail"/>
+													<div class="view_list_cont_text">
+														<h3>&lt;동아리&gt; 복자여자고등학교 AI수학/융합코딩동아리</h3>
+														<ul>
+															<li><img src="../images/sub/view_icon06.png" alt="게시글 아이콘 이미지"/>3</li>
+															<li><img src="../images/sub/view_icon07.png" alt="그림 아이콘 이미지"/>10</li>
+														</ul>
+													</div>
+												</div>
+												</a>
+											</li>
+											<li>
+												<a href="#"><div class="view_list_cont_box">
+													<img src="../images/sub/view_img05.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail"/>
+													<div class="view_list_cont_text">
+														<h3>&lt;동아리&gt; 복자여자고등학교 AI수학/융합코딩동아리</h3>
+														<ul>
+															<li><img src="../images/sub/view_icon06.png" alt="게시글 아이콘 이미지"/>3</li>
+															<li><img src="../images/sub/view_icon07.png" alt="그림 아이콘 이미지"/>10</li>
+														</ul>
+													</div>
+												</div>
+												</a>
+											</li>
+											<li>
+												<a href="#"><div class="view_list_cont_box">
+													<img src="../images/sub/view_img05.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail"/>
+													<div class="view_list_cont_text">
+														<h3>&lt;동아리&gt; 복자여자고등학교 AI수학/융합코딩동아리</h3>
+														<ul>
+															<li><img src="../images/sub/view_icon06.png" alt="게시글 아이콘 이미지"/>3</li>
+															<li><img src="../images/sub/view_icon07.png" alt="그림 아이콘 이미지"/>10</li>
+														</ul>
+													</div>
+												</div>
+												</a>
+											</li>
+											<li>
+												<a href="#"><div class="view_list_cont_box">
+													<img src="../images/sub/view_img05.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail"/>
+													<div class="view_list_cont_text">
+														<h3>&lt;동아리&gt; 복자여자고등학교 AI수학/융합코딩동아리</h3>
+														<ul>
+															<li><img src="../images/sub/view_icon06.png" alt="게시글 아이콘 이미지"/>3</li>
+															<li><img src="../images/sub/view_icon07.png" alt="그림 아이콘 이미지"/>10</li>
+														</ul>
+													</div>
+												</div>
+												</a>
+											</li>
+											
 
-        <div class="my_page_content_wrap">
-          <div class="con_left">
-            <div class="user_info_wrap">
-              <div class="user_info_box">
-                <div class="img_box">
-                  <img src="../images/sub/user_img.png" alt="프로필 이미지">
-                </div>
-                <div class="user_info">
-                  <span class="user_name">홍길동</span>
-                  <span class="user_school">길산중학교</span>
-                </div>
-                <a class="user_info_re" href="#">회원정보수정</a>
-              </div>
-              <a class="user_btn" href="#"><span>포인트</span><span class="point">1,047</span></a>
-              <a class="user_btn" href="#"><span>즐겨찾기 모꼬지</span><span class="count">24</span></a>
-              <a class="user_btn" href="#"><span>댓글관리</span><span class="count">15</span></a>
-            </div>
-
-            <div class="user_action_btn_list">
-              <a class="user_action_btn current" href="#">전체 나의 활동</a>
-              <a class="user_action_btn" href="#">나의 모꼬지</a>
-              <a class="user_action_btn" href="#">가입 모꼬지</a>
-              <a class="user_action_btn" href="#">한마당</a>
-              <a class="user_action_btn" href="#">소식 나눔</a>
-              <a class="user_action_btn" href="#">희망 나눔</a>
-              <a class="user_action_btn" href="#">학생 토론</a>
-              <a class="user_action_btn" href="#">학생 설문</a>
-              <a class="user_action_btn" href="#">학생 제안</a>
-            </div>
-          </div>
-          <div class="con_right">
-            <div class="search_wrap">
-              <ul class="radios">
-                <li>
-                  <input id="s_radio_1" type="radio" name="s_radio" value="" checked>
-                  <label for="s_radio_1"><span>일주일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_2" type="radio" name="s_radio" value="">
-                  <label for="s_radio_2"><span>15일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_3" type="radio" name="s_radio" value="">
-                  <label for="s_radio_3"><span>1개월</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_4" type="radio" name="s_radio" value="">
-                  <label for="s_radio_4"><span>3개월</span></label>
-                </li>
-              </ul>
-              <input class="date_input first" type="date" name="" value="2022-12-24">
-              <span class="to">~</span>
-              <input class="date_input last" type="date" name="" value="">
-              <input class="search_input" type="text" name="" value="" placeholder="검색어를 입력하세요">
-              <button class="search_btn" type="submit" name="button">조회</button>
-            </div>
-
-            <div class="con_wrap">
-              <div class="cont_items">
-                <span class="title">
-                  나의 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  가입 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  한마당
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  소식 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  희망 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 토론
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 설문
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 제안
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  		</section>
+										</ul>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</section>
+				<!-- 컨텐츠 End. -->
+		</section>
+		
     </div>
   </div>
 <!-- wrapper End. -->
@@ -405,29 +479,8 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
-			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
-		</div>
 </div>
 <!-- footer End. -->
-
-
-<!-- 탑버튼 스크립트 영역 -->
-<script>
-$( document ).ready( function() {
-  $( window ).scroll( function() {
-    if ( $( this ).scrollTop() > 200 ) {
-      $( '.btn_top_1' ).fadeIn();
-    } else {
-      $( '.btn_top_1' ).fadeOut();
-    }
-  });
-  $( '.btn_top_1' ).click( function() {
-    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
-    return false;
-  });
-});
-</script>
 
 
 <!-- 헤더 스크립트 영역 -->
@@ -466,12 +519,12 @@ $(function () {
     });
 
     $(".nav_box_ob").mouseover(function () {
-        $("#new_hd").addClass("hd_active6");
+        $("#new_hd").addClass("hd_active");
         $(".sub_nav_box").stop().slideDown(200);
     });
 
     $("#new_hd").mouseleave(function () {
-        $("#new_hd").removeClass("hd_active6");
+        $("#new_hd").removeClass("hd_active");
         $(".sub_nav_box").stop().slideUp(100);
     });
 
@@ -537,10 +590,31 @@ $('.nav_box > li > a').mouseover(function () {
 });
 
 $('#wrapper').mouseout(function () {
-    $('.header_bottom_wrap').stop().slideUp(100);
-});
+    $('.header_bottom_wrap').stop().slideUp(100);	
+});       
 </script>
 
+<!-- Swiper slider 스크립트 영역 -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      cssMode: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+		
+		pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
 
+	  autoplay:{
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
  </body>
 </html>

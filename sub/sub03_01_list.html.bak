@@ -7,8 +7,8 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>모꼬지list</title>
-
+  <title>소식나눔 list</title>
+  
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
 
@@ -18,9 +18,9 @@
   <!-- 리셋 css -->
   <link rel="stylesheet" href="../css/reset.css"/>
 
-  <!-- 서브 css -->
+  <!-- 서브 css -->		
   <link rel="stylesheet" href="../css/sub.css"/>
-  <link rel="stylesheet" href="../css/sub_design.css"/>
+
 
   <!-- jquery cdn -->
   <script src="../js/jquery-3.2.1.min.js"></script>
@@ -31,13 +31,13 @@
 
 
 
-
+	
 
 <!-- header start -->
 
 <header id="new_hd" class="hd_wrap">
 	<div class="hd_area">
-		<div class="hd_con6">
+		<div class="hd_con3">
 			<div class="hd_size">
 				<div class="logo">
 					<a href="../index.html">
@@ -74,7 +74,7 @@
       <ul class="sub_nav_box">
           <li><a href="#">토론</a></li>
   <li><a href="sub05_list.html">학생토론</a></li>
-  <li><a href="sub05_01_list.html">학생토의</a></li>
+  <li><a href="#">학생토의</a></li>
   <li><a href="sub06_list.html">학생설문</a></li>
 </ul>
   </li>
@@ -230,164 +230,227 @@
 <div class="m_bg" style="display: none;"></div>
 
 <!-- header End. -->
-
+ 
  <!-- wrapper start -->
  <div id="wrapper">
     <div id="container">
-      <!-- 왜 따로 만든지 모르겠음 -->
-      <div class="head_bg">
+		<!-- 상단 배너 start -->
+		<section id="sub03_bg">
+			<div class="container">
+				<div class="sbu03_sub_page_nav">
+					<ul>
+						<li><img src="../images/common/home_icon.svg" alt="서브페이지 홈 아이콘 이미지"/></li>
+						<li>나눔</li>
+						<li>소식공유</li>
+					</ul>
+				</div>
+				<div class="sub03_banner_title">
+					<p>나눔<span>온라인지도제작과 프로젝트 실현</span></p>
+				</div>
+				<div class="sub_page_link9">
+					<ul>
+						<li><a href="sub03_list.html">소식나눔</a></li>
+						<li>/</li>
+						<li class="on2"><a href="sub03_01_list.html">소식공유</a></li>
+						<li>/</li>
+						<li><a href="sub04_list.html">희망나눔</a></li>
+					</ul>
+				</div>
+				<img src="../images/sub/sub03_bg_img01.png" alt="서브페이지 상단 배너 학생 이미지">
+			</div>
+		</section>
+		<!-- 상단 배너 End. -->
 
-      </div>
-      <!-- 시작 -->
-  		<section id="mypage">
-        <div class="page_head_wrap">
-          <ul class="page_navi_box">
-            <li class="home"><span>홈</span></li>
-            <li>제안</li>
-            <li>학생제안</li>
-          </ul>
-          <h2 class="page_title">mypage</h2>
-          <ul class="mypage_deth">
-            <li class="current"><a href="mypage_list.html">나의 활동내역</a></li>
-            <li ><a href="mypage_mileage.html">마일리지</a></li>
-            <li><a href="mypage_info.html">회원정보</a></li>
-          </ul>
-        </div>
+		<!-- 컨텐츠 start -->
+		<section id="sub01_wrap">
+			<div class="container">
+				
+				<!-- 상단 텝메뉴 start -->
+				<div class="allWrap">     
+					<div class="tabBox3">
+						<p class="tab-link current" data-tab="tab-1">전체</p>
+						<p class="tab-link"  data-tab="tab-2">교육</p>
+						<p class="tab-link"  data-tab="tab-3">환경</p>
+						<p class="tab-link"  data-tab="tab-4">안전</p>
+						<p class="tab-link"  data-tab="tab-5">문화</p>
+						<p class="tab-link"  data-tab="tab-6">스포츠</p>
+						<p class="tab-link"  data-tab="tab-7">IT</p>
+						<p class="tab-link"  data-tab="tab-8">기타</p>
+					</div>
+				</div>
+				<!-- 상단 텝메뉴 End. -->
 
-        <div class="my_page_content_wrap">
-          <div class="con_left">
-            <div class="user_info_wrap">
-              <div class="user_info_box">
-                <div class="img_box">
-                  <img src="../images/sub/user_img.png" alt="프로필 이미지">
-                </div>
-                <div class="user_info">
-                  <span class="user_name">홍길동</span>
-                  <span class="user_school">길산중학교</span>
-                </div>
-                <a class="user_info_re" href="#">회원정보수정</a>
-              </div>
-              <a class="user_btn" href="#"><span>포인트</span><span class="point">1,047</span></a>
-              <a class="user_btn" href="#"><span>즐겨찾기 모꼬지</span><span class="count">24</span></a>
-              <a class="user_btn" href="#"><span>댓글관리</span><span class="count">15</span></a>
-            </div>
+				<!-- 상단 두번째 텝메뉴 -->
+				<div id="tabbtnbox">
+					<button class="tabbtn tactive0555" type="button">
+						 <span>진행중 소식나눔</span>
+					</button>
+					<button class="tabbtn" type="button">
+						 <span>종료된 소식나눔</span>
+					</button> 
+					<div class="tabbtnsolid"></div> 
+	 			 </div>
+				 <!-- 상단 두번째 텝메뉴  End. -->
 
-            <div class="user_action_btn_list">
-              <a class="user_action_btn current" href="#">전체 나의 활동</a>
-              <a class="user_action_btn" href="#">나의 모꼬지</a>
-              <a class="user_action_btn" href="#">가입 모꼬지</a>
-              <a class="user_action_btn" href="#">한마당</a>
-              <a class="user_action_btn" href="#">소식 나눔</a>
-              <a class="user_action_btn" href="#">희망 나눔</a>
-              <a class="user_action_btn" href="#">학생 토론</a>
-              <a class="user_action_btn" href="#">학생 설문</a>
-              <a class="user_action_btn" href="#">학생 제안</a>
-            </div>
-          </div>
-          <div class="con_right">
-            <div class="search_wrap">
-              <ul class="radios">
-                <li>
-                  <input id="s_radio_1" type="radio" name="s_radio" value="" checked>
-                  <label for="s_radio_1"><span>일주일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_2" type="radio" name="s_radio" value="">
-                  <label for="s_radio_2"><span>15일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_3" type="radio" name="s_radio" value="">
-                  <label for="s_radio_3"><span>1개월</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_4" type="radio" name="s_radio" value="">
-                  <label for="s_radio_4"><span>3개월</span></label>
-                </li>
-              </ul>
-              <input class="date_input first" type="date" name="" value="2022-12-24">
-              <span class="to">~</span>
-              <input class="date_input last" type="date" name="" value="">
-              <input class="search_input" type="text" name="" value="" placeholder="검색어를 입력하세요">
-              <button class="search_btn" type="submit" name="button">조회</button>
-            </div>
+				 
 
-            <div class="con_wrap">
-              <div class="cont_items">
-                <span class="title">
-                  나의 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  가입 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  한마당
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  소식 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  희망 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 토론
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 설문
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 제안
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  		</section>
+				
+				
+				<!-- search_bar_wrap start -->
+				<div class="search_bar_wrap3">
+					<ul>
+						<li>
+							<select id="zone" name="zone" class="selectBox" title="검색어 구분 선택">
+                                <option value="">전체</option>
+								<option value="전체1">전체1</option>
+								<option value="전체2">전체2</option>
+                            </select>
+						</li>
+						<li><input title="검색어를 입력하세요" placeholder="검색어를 입력하세요" class="search_input" type="text" value=""></li>
+						<li><button>검색<img src="../images/sub/btn_icon01.png" alt="돋보기 아이콘"/></button></li>
+					</ul>
+				</div>
+				<!-- search_bar_wrap End. -->
+				
+				<!-- veiw_list_nav start -->
+				<div class="veiw_list_nav2">
+					<div class="veiw_list_nav_l">
+						<p>총 268건 / 6건</p>
+					</div>
+					<div class="veiw_list_nav_r">
+						<ul>
+							<li><button>최신순</button></li>
+							<li><button>조회순</button></li>
+							<li><button>모금액순</button></li>
+							<li><button></button></li>
+							<li><button></button></li>
+						</ul>
+					</div>
+				</div>
+				<!-- veiw_list_nav End. -->
+
+				<div id="tabcontbox">
+					<div class="tabcont">	
+					<!-- veiw_list_wrap start -->
+					<!-- 첫번째 텝메뉴 컨텐츠 start -->
+					<div  id="tab_1" class="tab-content current">
+						<div class="veiw_list_wrap2">
+							<div class="view_list_cont">
+								<a href="sub03_01_view.html">
+								<div class="sub03_content_wrap01">
+									<div class="sub03_cont_l">
+										<img src="../images/sub/sub03_img01.png" alt="진행중 소식나눔 이미지"/>
+									</div>
+									<div class="sub03_cont_r">
+										<div class="sub03_cont_r01">
+											<p>교육</p>
+											<h2>2022년 청소년 역사캠프</h2>
+											<p>■ 행사명 : 20022년 충남 청소년 역사체험 캠프■ 대상: 충청남도 중·고등학생 48팀 선정- 중학교 : 청양중, 대산중, 계룡중, 신평중, 온양한올중, 논산<br>
+											중, 송악중, 서산중, 탕정중, 환서중, 태안여중, 내포중, 동강중, 천안동중, 공주북중, 천안백석중, 청양중, 송악중, 남포중, 공주여중, 임성중, 대산중</p>
+											<ul>
+												<li>참여기간</li>
+												<li>2022-11-18(금)~2022-12-18(일)</li>
+												<li>D-12</li>
+												<li>조회수 58</li>
+												<li>참여 <span>238명</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="sub03_content_wrap01">
+									<div class="sub03_cont_l">
+										<img src="../images/sub/sub03_img01.png" alt="진행중 소식나눔 이미지"/>
+									</div>
+									<div class="sub03_cont_r">
+										<div class="sub03_cont_r01">
+											<p>교육</p>
+											<h2>2022년 청소년 역사캠프</h2>
+											<p>■ 행사명 : 20022년 충남 청소년 역사체험 캠프■ 대상: 충청남도 중·고등학생 48팀 선정- 중학교 : 청양중, 대산중, 계룡중, 신평중, 온양한올중, 논산<br>
+											중, 송악중, 서산중, 탕정중, 환서중, 태안여중, 내포중, 동강중, 천안동중, 공주북중, 천안백석중, 청양중, 송악중, 남포중, 공주여중, 임성중, 대산중</p>
+											<ul>
+												<li>참여기간</li>
+												<li>2022-11-18(금)~2022-12-18(일)</li>
+												<li>D-12</li>
+												<li>조회수 <span>58</span></li>
+												<li>참여 <span>238명</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</a>
+							</div>
+						</div>
+					</div>
+					<!-- veiw_list_wrap End. -->
+					<!-- 첫번째 텝메뉴 End. -->	
+					</div>
+				</div>
+				<div id="tabcontbox">
+					<div class="tabcont">	
+					<!-- veiw_list_wrap start -->
+					<!-- 첫번째 텝메뉴 컨텐츠 start -->
+					<div  id="tab_1" class="tab-content current">
+						<div class="veiw_list_wrap2">
+							<div class="view_list_cont">
+							1
+							</div>
+						</div>
+					</div>
+					<!-- veiw_list_wrap End. -->
+					<!-- 첫번째 텝메뉴 End. -->	
+					</div>
+				</div>
+				
+
+				<!-- 두번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-2" class="tab-content">
+				교육
+				</div>
+				<!-- 두번째 텝메뉴 컨텐츠 End. -->
+				<!-- 3번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-3" class="tab-content">
+				환경
+				</div>
+				<!-- 3번째 텝메뉴 컨텐츠 End. -->
+				<!-- 4번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-4" class="tab-content">
+				안전
+				</div>
+				<!-- 4번째 텝메뉴 컨텐츠 End. -->
+				<!-- 5번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-5" class="tab-content">
+				문화
+				</div>
+				<!-- 5번째 텝메뉴 컨텐츠 End. -->
+				<!-- 6번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-6" class="tab-content">
+					스포츠
+					</div>
+					<!-- 6번째 텝메뉴 컨텐츠 End. -->
+					<!-- 7번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-7" class="tab-content">
+					IT
+					</div>
+					<!-- 7번째 텝메뉴 컨텐츠 End. -->
+					<!-- 8번째 텝메뉴 컨텐츠 start -->
+				<div  id="tab-8" class="tab-content">
+					기타
+					</div>
+					<!-- 8번째 텝메뉴 컨텐츠 End. -->
+				
+				
+
+				<!-- veiw_list_wrap btn start -->
+				<div class="veiw_list_wrap_btn4">
+					<button>더보기<img src="../images/sub/content_arrow_bottom.png" alt="아래 화살표 이미지"/></button>
+				</div>
+				<!-- veiw_list_wrap btn End. -->
+			
+			</div>
+		</section>
+		<!-- 컨텐츠 End. -->
     </div>
   </div>
 <!-- wrapper End. -->
@@ -405,7 +468,7 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
+	<div class="btn_box">
 			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
 		</div>
 </div>
@@ -466,12 +529,22 @@ $(function () {
     });
 
     $(".nav_box_ob").mouseover(function () {
-        $("#new_hd").addClass("hd_active6");
+        $("#new_hd").addClass("hd_active");
         $(".sub_nav_box").stop().slideDown(200);
     });
 
     $("#new_hd").mouseleave(function () {
-        $("#new_hd").removeClass("hd_active6");
+        $("#new_hd").removeClass("hd_active");
+        $(".sub_nav_box").stop().slideUp(100);
+    });
+
+	$(".nav_box_ob").mouseover(function () {
+        $("#new_hd").addClass("hd_active2");
+        $(".sub_nav_box").stop().slideDown(200);
+    });
+
+    $("#new_hd").mouseleave(function () {
+        $("#new_hd").removeClass("hd_active2");
         $(".sub_nav_box").stop().slideUp(100);
     });
 
@@ -537,8 +610,34 @@ $('.nav_box > li > a').mouseover(function () {
 });
 
 $('#wrapper').mouseout(function () {
-    $('.header_bottom_wrap').stop().slideUp(100);
-});
+    $('.header_bottom_wrap').stop().slideUp(100);	
+});       
+</script>
+
+
+<!-- 텝 메뉴 스크립트 영역 -->
+<script>
+        $('.tab-link').click(function () {
+        var tab_id = $(this).attr('data-tab');
+
+        $('.tab-link').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#" + tab_id).addClass('current');
+
+    });
+</script>
+
+<!-- 상단 두번째 텝메뉴 스크립트 영역 -->
+<script>
+	$(".tabbtn").click(function() {
+	   var num = $(this).index();
+	   $(".tabcont").hide();
+	   $(".tabcont").eq(num).show();
+	   $(".tabbtn").removeClass("tactive0555");
+	   $(this).addClass("tactive0555");
+   });
 </script>
 
 

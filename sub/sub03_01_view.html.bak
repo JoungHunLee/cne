@@ -246,11 +246,11 @@
 							<ul>
 								<li><img src="../images/common/home_icon.svg" alt="서브페이지 홈 아이콘 이미지"/></li>
 								<li>나눔</li>
-								<li>소식나눔</li>
+								<li>소식공유</li>
 							</ul>
 						</div>
 						<div class="back_btn_wrap04">
-							<a href="sub03_list.html"><span><img src="../images/sub/sub04_arrow_img01.svg" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
+							<a href="sub03_01_list.html"><span><img src="../images/sub/sub04_arrow_img01.svg" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
 						</div>
 					</div>
 				</div>
@@ -265,7 +265,7 @@
 							<div class="sub04_view_cont01">
 								<div class="sub_04_view_t_l">
 									<ul class="sub_04_keyword">
-										<li>소식나눔</li>
+										<li>소식공유</li>
 										<li>교육</li>
 									</ul>
 									<div class="sub_02_view_title">
@@ -299,7 +299,7 @@
                                 <ul>
                                     <li><button type="button"><img src="../images/sub/sub04_img01.png" alt="프린트 아이콘"/></button></li>
                                     <li><button type="button"><img src="../images/sub/sub04_img02.png" alt="공유 아이콘"/></button></li>
-                                    <li><button type="button">소식나눔 참여하기</button></li>
+                                    <li><button type="button">소식공유 참여하기</button></li>
                                 </ul>
                             </div>
                             <div class="sub04_cont02">
@@ -326,15 +326,15 @@
                 <section id="sub04_view_wrap02">
                     <div class="container">
                         <div class="sub04_cont03">
-                           <div class="sub04_cont03_l">
+                           <!--<div class="sub04_cont03_l">
                             <span><img src="../images/sub/sub04_img03.png" alt="좌표 아이콘 이미지"/> 소식지도</span>
                             <div class="sub04_cont03_map">
                                 <img src="../images/sub/sub04_img09.png" alt="지도 맵 이미지"/>
                             </div>
-                           </div>
-                           <div class="sub04_cont03_r">
+                           </div>-->
+                           <div class="sub04_cont03_r01">
                             <span><img src="../images/sub/sub04_img04.png" alt="그림 아이콘 이미지"/> 소식공유</span>
-                            <div class="veiw_list_wrap5">
+                            <div class="veiw_list_wrap6">
                                 <div class="view_list_cont">
                                     <ul>
                                         <li>
@@ -409,6 +409,78 @@
                                             </div>
                                             </a>
                                         </li>
+										 <li>
+                                            <a href="#"><div class="view_list_cont_box">
+                                                <img src="../images/sub/sub04_img10.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail">
+                                                <div class="view_list_cont_text">
+                                                    <h3>타이틀이 들어갑니다</h3>
+                                                    <div class="veiw_list_cont_box01">
+                                                        <ul>
+                                                            <li>배민서 (은진초등학교)</li>
+                                                            <li class="date01">2022-11-18</li>
+                                                        </ul>
+                                                    </div>
+                                                    <ul class="f_list">
+                                                        <li><img src="../images/sub/icon04.svg" alt="게시글 아이콘 이미지">3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+										 <li>
+                                            <a href="#"><div class="view_list_cont_box">
+                                                <img src="../images/sub/sub04_img10.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail">
+                                                <div class="view_list_cont_text">
+                                                    <h3>타이틀이 들어갑니다</h3>
+                                                    <div class="veiw_list_cont_box01">
+                                                        <ul>
+                                                            <li>배민서 (은진초등학교)</li>
+                                                            <li class="date01">2022-11-18</li>
+                                                        </ul>
+                                                    </div>
+                                                    <ul class="f_list">
+                                                        <li><img src="../images/sub/icon04.svg" alt="게시글 아이콘 이미지">3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+										 <li>
+                                            <a href="#"><div class="view_list_cont_box">
+                                                <img src="../images/sub/sub04_img10.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail">
+                                                <div class="view_list_cont_text">
+                                                    <h3>타이틀이 들어갑니다</h3>
+                                                    <div class="veiw_list_cont_box01">
+                                                        <ul>
+                                                            <li>배민서 (은진초등학교)</li>
+                                                            <li class="date01">2022-11-18</li>
+                                                        </ul>
+                                                    </div>
+                                                    <ul class="f_list">
+                                                        <li><img src="../images/sub/icon04.svg" alt="게시글 아이콘 이미지">3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+										 <li>
+                                            <a href="#"><div class="view_list_cont_box">
+                                                <img src="../images/sub/sub04_img10.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail">
+                                                <div class="view_list_cont_text">
+                                                    <h3>타이틀이 들어갑니다</h3>
+                                                    <div class="veiw_list_cont_box01">
+                                                        <ul>
+                                                            <li>배민서 (은진초등학교)</li>
+                                                            <li class="date01">2022-11-18</li>
+                                                        </ul>
+                                                    </div>
+                                                    <ul class="f_list">
+                                                        <li><img src="../images/sub/icon04.svg" alt="게시글 아이콘 이미지">3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -449,29 +521,8 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
-			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
-		</div>
 </div>
 <!-- footer End. -->
-
-
-<!-- 탑버튼 스크립트 영역 -->
-<script>
-$( document ).ready( function() {
-  $( window ).scroll( function() {
-    if ( $( this ).scrollTop() > 200 ) {
-      $( '.btn_top_1' ).fadeIn();
-    } else {
-      $( '.btn_top_1' ).fadeOut();
-    }
-  });
-  $( '.btn_top_1' ).click( function() {
-    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
-    return false;
-  });
-});
-</script>
 
 
 <!-- 헤더 스크립트 영역 -->

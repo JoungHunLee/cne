@@ -7,8 +7,8 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>모꼬지list</title>
-
+  <title>한마당 write</title>
+  
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
 
@@ -18,26 +18,34 @@
   <!-- 리셋 css -->
   <link rel="stylesheet" href="../css/reset.css"/>
 
-  <!-- 서브 css -->
+  <!-- 서브 css -->		
   <link rel="stylesheet" href="../css/sub.css"/>
-  <link rel="stylesheet" href="../css/sub_design.css"/>
 
   <!-- jquery cdn -->
   <script src="../js/jquery-3.2.1.min.js"></script>
   <script src="../js/jquery-1.12.4.min.js"></script>
 
+  <!-- swiper slider -->
+  <link rel="stylesheet" href="../css/swiper.min.css"/>
+  <script src="../js/swiper.min.js"></script>
+
+
+ 
+
+ 
+ 
  </head>
- <body>
+ <body class="today_talk_view_bg">
 
 
 
-
+	
 
 <!-- header start -->
 
 <header id="new_hd" class="hd_wrap">
 	<div class="hd_area">
-		<div class="hd_con6">
+		<div class="hd_con2">
 			<div class="hd_size">
 				<div class="logo">
 					<a href="../index.html">
@@ -230,166 +238,146 @@
 <div class="m_bg" style="display: none;"></div>
 
 <!-- header End. -->
-
+ 
  <!-- wrapper start -->
  <div id="wrapper">
     <div id="container">
-      <!-- 왜 따로 만든지 모르겠음 -->
-      <div class="head_bg">
+		<section id="sub02_write_wrapper">
+			<div class="container">
 
-      </div>
-      <!-- 시작 -->
-  		<section id="mypage">
-        <div class="page_head_wrap">
-          <ul class="page_navi_box">
-            <li class="home"><span>홈</span></li>
-            <li>제안</li>
-            <li>학생제안</li>
-          </ul>
-          <h2 class="page_title">mypage</h2>
-          <ul class="mypage_deth">
-            <li class="current"><a href="mypage_list.html">나의 활동내역</a></li>
-            <li ><a href="mypage_mileage.html">마일리지</a></li>
-            <li><a href="mypage_info.html">회원정보</a></li>
-          </ul>
-        </div>
+                <!-- sub01_write_nav start -->
+				<div class="sub02_write_nav">
+					<div class="sub_write_nav">
+						<div class="sub_view_nav_cont">
+							<ul>
+								<li><img src="../images/common/home_icon.svg" alt="서브페이지 홈 아이콘 이미지"/></li>
+								<li>소통</li>
+								<li>한마당</li>
+							</ul>
+						</div>
+						<div class="back_btn_wrap">
+							<a href="sub02_list.html"><span><img src="../images/sub/left_arrow.svg" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
+						</div>
+					</div>
+				</div>
+                <!-- sub01_write_nav End. -->
 
-        <div class="my_page_content_wrap">
-          <div class="con_left">
-            <div class="user_info_wrap">
-              <div class="user_info_box">
-                <div class="img_box">
-                  <img src="../images/sub/user_img.png" alt="프로필 이미지">
-                </div>
-                <div class="user_info">
-                  <span class="user_name">홍길동</span>
-                  <span class="user_school">길산중학교</span>
-                </div>
-                <a class="user_info_re" href="#">회원정보수정</a>
-              </div>
-              <a class="user_btn" href="#"><span>포인트</span><span class="point">1,047</span></a>
-              <a class="user_btn" href="#"><span>즐겨찾기 모꼬지</span><span class="count">24</span></a>
-              <a class="user_btn" href="#"><span>댓글관리</span><span class="count">15</span></a>
-            </div>
-
-            <div class="user_action_btn_list">
-              <a class="user_action_btn current" href="#">전체 나의 활동</a>
-              <a class="user_action_btn" href="#">나의 모꼬지</a>
-              <a class="user_action_btn" href="#">가입 모꼬지</a>
-              <a class="user_action_btn" href="#">한마당</a>
-              <a class="user_action_btn" href="#">소식 나눔</a>
-              <a class="user_action_btn" href="#">희망 나눔</a>
-              <a class="user_action_btn" href="#">학생 토론</a>
-              <a class="user_action_btn" href="#">학생 설문</a>
-              <a class="user_action_btn" href="#">학생 제안</a>
-            </div>
-          </div>
-          <div class="con_right">
-            <div class="search_wrap">
-              <ul class="radios">
-                <li>
-                  <input id="s_radio_1" type="radio" name="s_radio" value="" checked>
-                  <label for="s_radio_1"><span>일주일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_2" type="radio" name="s_radio" value="">
-                  <label for="s_radio_2"><span>15일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_3" type="radio" name="s_radio" value="">
-                  <label for="s_radio_3"><span>1개월</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_4" type="radio" name="s_radio" value="">
-                  <label for="s_radio_4"><span>3개월</span></label>
-                </li>
-              </ul>
-              <input class="date_input first" type="date" name="" value="2022-12-24">
-              <span class="to">~</span>
-              <input class="date_input last" type="date" name="" value="">
-              <input class="search_input" type="text" name="" value="" placeholder="검색어를 입력하세요">
-              <button class="search_btn" type="submit" name="button">조회</button>
-            </div>
-
-            <div class="con_wrap">
-              <div class="cont_items">
-                <span class="title">
-                  나의 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  가입 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  한마당
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  소식 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  희망 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 토론
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 설문
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 제안
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  		</section>
+                <!-- 상단 컨텐츠 시작 -->
+                <section id="sub02_write_wrap_top">
+                    <div class="container">
+                        <div class="sub_write_top_cont_wrap">
+                            <div class="sub_write_top_l">
+                                <p>한마당 등록 전<br/>꼭! 읽어주세요.</p>
+                                <img src="../images/sub/sub02_write_img01.png" alt="확성기 아이콘 이미지"/>
+                            </div>
+                            <div class="sub_write_top_r">
+                                <ul>
+                                    <li><img src="../images/sub/sub02_write_img03.png" alt="체크 아이콘 이미지"/><span><span class="bold_style">본인이 제작한 영상</span>만 등록해주세요.</span></li>
+                                    <li><img src="../images/sub/sub02_write_img03.png" alt="체크 아이콘 이미지"/><span>관리자 <span class="bold_style">승인 후 등록</span>됩니다.</span></li>
+                                    <li><img src="../images/sub/sub02_write_img03.png" alt="체크 아이콘 이미지"/><span>등록한 영상이 다음과 같은 경우에 해당된다고 판단되는 경우 <span class="bold_style">예고 없이 삭제</span>됩니다.</span></li>
+                                </ul>
+                                <div class="sub_write_top_c_wrap">
+                                    <div class="sub_write_top_c_l">
+                                        <ul>
+                                            <li>타인을 비방하거나 명예를 회손시키는 영상</li>
+                                            <li>공공질서에 위반되는 정보를 유포하는 영상</li>
+                                            <li>영리를 목적으로 하는 광고 영상</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub_write_top_c_r">
+                                        <ul>
+                                        <li>범죄적 행위에 해당하는 영상</li>
+                                        <li>다른 이용자 또는 제 3자의 저작권 등 기타 권리를 침해하는 영상</li>
+                                        <li>기타 정보통신 관련 법령에 위배되는 영상</li>
+                                    </ul>
+                                    </div>
+                                </div>
+                                <div class="sub_write_top_b_wrap">
+                                    <ul>
+                                        <li><input type="checkbox" id="scales" name="scales" checked>
+                                            <label for="scales">위 사항에 모두 동의하고 준수할 것을 약속합니다.</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+				<img src="../images/sub/sub02_write_img02.png" alt="한마당write 사람 이미지"/>	
+				<!-- 컨텐츠 start -->
+				<section id="sub02_write_wrap">
+					<div class="container">
+						<div class="sub02_write_content">	
+							<div class="write_cont01">
+                                <ul class="write_keyword">
+                                    <li>한마당</li>
+                                </ul>
+                                <div class="write_title">
+                                    <h2>동영상등록하기</h2>
+                                </div>
+							</div>
+                            <div class="sub02_write_content01">
+                                <p>카테고리</p>
+                                <ul>
+                                    <li class="sub02_write_on"> 
+                                        <input type="radio" id="but1" name="">
+                                        <label for="but1">
+                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
+                                        </label>학교</li>
+                                    <li> <input type="radio" id="but2" name="">
+                                        <label for="but2">
+                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
+                                        </label>동아리</li>
+                                    <li> <input type="radio" id="but3" name="">
+                                        <label for="but3">
+                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
+                                        </label>크리에이터</li>
+                                    <li> <input type="radio" id="but4" name="">
+                                        <label for="but4">
+                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
+                                        </label>기타</li>
+                                </ul>
+                            </div>
+                            <div class="sub02_write_content02">
+                                <div class="sub02_write_content02_l">
+                                    <p>제목</p>
+                                </div>
+                                <div class="sub02_write_content02_r">
+                                    <input tpye="text" placeholder="제목을 입력해주세요"/>
+                                </div>
+                            </div>
+                            <div class="sub02_write_content03">
+                                <div class="sub02_write_content03_l">
+                                    <p>내용</p>
+                                </div>
+                                <div class="sub02_write_content03_r">
+                                    <img src="../images/sub/smart_edit.png" alt="스마트에디터 이미지"/>
+                                </div>
+                            </div>
+                            <div class="sub02_write_content04">
+                                <div class="sub02_write_content04_l">
+                                    <p>동영상링크</p>
+                                </div>
+                                <div class="sub02_write_content04_r">
+                                    <input tpye="text" placeholder="http://youtube/ovs5Z0txMUY"/>
+                                    <p>※ Youtube URL을 입력해주세요.</p>
+                                    <p>※ 동영상링크는 수정이 불가능합니다.</p>
+                                </div>
+                            </div>
+                            <div class="sub02_write_content05">
+                                <ul>
+                                     <li><button type="button">등록하기</button></li>
+                                     <li><button type="button">취소하기</button></li>
+                                </ul>
+                             </div>
+						</div>
+					</div>	
+				</section>
+				<!-- 컨텐츠 End. -->
+		</section>
     </div>
-  </div>
+</div>
 <!-- wrapper End. -->
 
 <!-- footer start -->
@@ -405,29 +393,8 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
-			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
-		</div>
 </div>
 <!-- footer End. -->
-
-
-<!-- 탑버튼 스크립트 영역 -->
-<script>
-$( document ).ready( function() {
-  $( window ).scroll( function() {
-    if ( $( this ).scrollTop() > 200 ) {
-      $( '.btn_top_1' ).fadeIn();
-    } else {
-      $( '.btn_top_1' ).fadeOut();
-    }
-  });
-  $( '.btn_top_1' ).click( function() {
-    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
-    return false;
-  });
-});
-</script>
 
 
 <!-- 헤더 스크립트 영역 -->
@@ -466,12 +433,12 @@ $(function () {
     });
 
     $(".nav_box_ob").mouseover(function () {
-        $("#new_hd").addClass("hd_active6");
+        $("#new_hd").addClass("hd_active");
         $(".sub_nav_box").stop().slideDown(200);
     });
 
     $("#new_hd").mouseleave(function () {
-        $("#new_hd").removeClass("hd_active6");
+        $("#new_hd").removeClass("hd_active");
         $(".sub_nav_box").stop().slideUp(100);
     });
 
@@ -537,10 +504,25 @@ $('.nav_box > li > a').mouseover(function () {
 });
 
 $('#wrapper').mouseout(function () {
-    $('.header_bottom_wrap').stop().slideUp(100);
-});
+    $('.header_bottom_wrap').stop().slideUp(100);	
+});       
 </script>
 
+<!-- 첨부파일 스크립트 영역 -->
+<script type="text/javascript">
+$(document).ready(function(){
+    var fileTarget = $('.filebox .upload-hidden');
+        fileTarget.on('change', function(){
+            if(window.FileReader){
+                var filename = $(this)[0].files[0].name;
+            } else {
+                var filename = $(this).val().split('/').pop().split('\\').pop();
+            }
+    
+            $(this).siblings('.upload-name').val(filename);
+        });
+    }); 
+</script>
 
  </body>
 </html>

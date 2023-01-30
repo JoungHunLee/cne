@@ -7,8 +7,8 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>모꼬지list</title>
-
+  <title>오늘톡 list</title>
+  
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
 
@@ -18,26 +18,34 @@
   <!-- 리셋 css -->
   <link rel="stylesheet" href="../css/reset.css"/>
 
-  <!-- 서브 css -->
+  <!-- 서브 css -->		
   <link rel="stylesheet" href="../css/sub.css"/>
-  <link rel="stylesheet" href="../css/sub_design.css"/>
 
   <!-- jquery cdn -->
   <script src="../js/jquery-3.2.1.min.js"></script>
   <script src="../js/jquery-1.12.4.min.js"></script>
 
+  <!-- swiper slider -->
+  <link rel="stylesheet" href="../css/swiper.min.css"/>
+  <script src="../js/swiper.min.js"></script>
+
+
+ 
+
+ 
+ 
  </head>
- <body>
+ <body class="today_talk_list_bg">
 
 
 
-
+	
 
 <!-- header start -->
 
 <header id="new_hd" class="hd_wrap">
 	<div class="hd_area">
-		<div class="hd_con6">
+		<div class="hd_con2">
 			<div class="hd_size">
 				<div class="logo">
 					<a href="../index.html">
@@ -230,166 +238,181 @@
 <div class="m_bg" style="display: none;"></div>
 
 <!-- header End. -->
-
+ 
  <!-- wrapper start -->
  <div id="wrapper">
     <div id="container">
-      <!-- 왜 따로 만든지 모르겠음 -->
-      <div class="head_bg">
-
-      </div>
-      <!-- 시작 -->
-  		<section id="mypage">
-        <div class="page_head_wrap">
-          <ul class="page_navi_box">
-            <li class="home"><span>홈</span></li>
-            <li>제안</li>
-            <li>학생제안</li>
-          </ul>
-          <h2 class="page_title">mypage</h2>
-          <ul class="mypage_deth">
-            <li class="current"><a href="mypage_list.html">나의 활동내역</a></li>
-            <li ><a href="mypage_mileage.html">마일리지</a></li>
-            <li><a href="mypage_info.html">회원정보</a></li>
-          </ul>
-        </div>
-
-        <div class="my_page_content_wrap">
-          <div class="con_left">
-            <div class="user_info_wrap">
-              <div class="user_info_box">
-                <div class="img_box">
-                  <img src="../images/sub/user_img.png" alt="프로필 이미지">
-                </div>
-                <div class="user_info">
-                  <span class="user_name">홍길동</span>
-                  <span class="user_school">길산중학교</span>
-                </div>
-                <a class="user_info_re" href="#">회원정보수정</a>
-              </div>
-              <a class="user_btn" href="#"><span>포인트</span><span class="point">1,047</span></a>
-              <a class="user_btn" href="#"><span>즐겨찾기 모꼬지</span><span class="count">24</span></a>
-              <a class="user_btn" href="#"><span>댓글관리</span><span class="count">15</span></a>
-            </div>
-
-            <div class="user_action_btn_list">
-              <a class="user_action_btn current" href="#">전체 나의 활동</a>
-              <a class="user_action_btn" href="#">나의 모꼬지</a>
-              <a class="user_action_btn" href="#">가입 모꼬지</a>
-              <a class="user_action_btn" href="#">한마당</a>
-              <a class="user_action_btn" href="#">소식 나눔</a>
-              <a class="user_action_btn" href="#">희망 나눔</a>
-              <a class="user_action_btn" href="#">학생 토론</a>
-              <a class="user_action_btn" href="#">학생 설문</a>
-              <a class="user_action_btn" href="#">학생 제안</a>
-            </div>
-          </div>
-          <div class="con_right">
-            <div class="search_wrap">
-              <ul class="radios">
-                <li>
-                  <input id="s_radio_1" type="radio" name="s_radio" value="" checked>
-                  <label for="s_radio_1"><span>일주일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_2" type="radio" name="s_radio" value="">
-                  <label for="s_radio_2"><span>15일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_3" type="radio" name="s_radio" value="">
-                  <label for="s_radio_3"><span>1개월</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_4" type="radio" name="s_radio" value="">
-                  <label for="s_radio_4"><span>3개월</span></label>
-                </li>
-              </ul>
-              <input class="date_input first" type="date" name="" value="2022-12-24">
-              <span class="to">~</span>
-              <input class="date_input last" type="date" name="" value="">
-              <input class="search_input" type="text" name="" value="" placeholder="검색어를 입력하세요">
-              <button class="search_btn" type="submit" name="button">조회</button>
-            </div>
-
-            <div class="con_wrap">
-              <div class="cont_items">
-                <span class="title">
-                  나의 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  가입 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  한마당
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  소식 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  희망 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 토론
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 설문
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 제안
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  		</section>
+		<section id="today_list_wrapper">
+			<div class="container">
+					
+				<div class="today_top_cont01">
+					<div class="today_top_cont01_l">
+						<ul>
+							<li><img src="../images/sub/today_talk_logo.png" alt="오늘톡 로고 이미지"/></li>
+							<li>Today <span>12월</span></li>
+						</ul>
+					</div>
+					<div class="today_top_cont01_r">
+						<a href="#">오늘톡 등록하기<img src="../images/sub/today_talk_right.png" alt="오늘톡 오른쪽 화살표 아이콘 이미지"/></a>
+					</div>
+				</div>
+				<!-- 컨텐츠 start -->
+				<section id="today_talk_wrap">
+					<div class="container">
+						<div class="today_talk_cont01">
+							<div class="today_talk_cont01_l">
+								<ul class="scheduler_list">
+									<li><img src="../images/sub/scheduler_left_arrow.png" onmouseover="this.src='../images/sub/scheduler_left_arrow_on.png'" onmouseout="this.src='../images/sub/scheduler_left_arrow.png'" alt="오늘톡 달력 왼쪽 화살표 아이콘 이미지"/></li>
+									<li><span class="day">Mon</span><span class="num">26</span></li>
+									<li><span class="day">Tue</span><span class="num">27</span></li>
+									<li><span class="day">Wed</span><span class="num">28</span></li>
+									<li><span class="day">Thu</span><span class="num">29</span></li>
+									<li class="scheduler_on">
+										<div class="scheduler_bg">
+											<span class="day">Fri</span><span class="num">30</span>
+										</div>
+									</li>
+									<li><span class="day">Sat</span><span class="num">31</span></li>
+									<li><span class="day">Sun</span><span class="num">1</span></li>
+									<li><img src="../images/sub/scheduler_right_arrow.png" onmouseover="this.src='../images/sub/scheduler_right_arrow_on.png'" onmouseout="this.src='../images/sub/scheduler_right_arrow.png'" alt="오늘톡 달력 오른쪽 화살표 아이콘 이미지"/></li>
+								</ul>
+							</div>
+							<div class="today_talk_cont01_r">
+								<img src="../images/sub/today_talk_img01.png" alt="오늘톡 사람 이미지"/>
+							</div>
+						</div>
+						<div class="today_talk_cont02">
+							<ul class="timeline">
+								<li>
+									<div class="timeline_wrap">
+										<p class="time">AM08:25</p>
+									</div>
+									<div class="timecircle"></div>
+									<div class="time_line"></div>
+									<div class="timeline_content_wrap">
+										<div class="timeline_content">
+											<div class="timeline_content_l">
+												<a href="today_talk_view.html">겨울교복에 어울리는 아이템은 뭐가 있을까?</a>
+											</div>
+											<div class="timeline_content_r">
+												<span><img src="../images/sub/timeline_icon01.png" alt="좋아요 아이콘 이미지"/>24</span>
+												<span><img src="../images/sub/timeline_icon02.png" alt="댓글 아이콘 이미지"/>63</span>	
+											</div>	
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline_wrap">
+										<p class="time">AM08:25</p>
+									</div>
+									<div class="timecircle"></div>
+									<div class="timeline_content_wrap">
+										<div class="timeline_content">
+											<div class="timeline_content_l">
+												<a href="#">겨울교복에 어울리는 아이템은 뭐가 있을까?</a>
+											</div>
+											<div class="timeline_content_r">
+												<span><img src="../images/sub/timeline_icon01.png" alt="좋아요 아이콘 이미지"/>24</span>
+												<span><img src="../images/sub/timeline_icon02.png" alt="댓글 아이콘 이미지"/>63</span>	
+											</div>	
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline_wrap">
+										<p class="time">AM08:25</p>
+									</div>
+									<div class="timecircle"></div>
+									<div class="timeline_content_wrap">
+										<div class="timeline_content">
+											<div class="timeline_content_l">
+												<a href="#">겨울교복에 어울리는 아이템은 뭐가 있을까?</a>
+											</div>
+											<div class="timeline_content_r">
+												<span><img src="../images/sub/timeline_icon01.png" alt="좋아요 아이콘 이미지"/>24</span>
+												<span><img src="../images/sub/timeline_icon02.png" alt="댓글 아이콘 이미지"/>63</span>	
+											</div>	
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline_wrap">
+										<p class="time">AM08:25</p>
+									</div>
+									<div class="timecircle"></div>
+									<div class="timeline_content_wrap">
+										<div class="timeline_content">
+											<div class="timeline_content_l">
+												<a href="#">겨울교복에 어울리는 아이템은 뭐가 있을까?</a>
+											</div>
+											<div class="timeline_content_r">
+												<span><img src="../images/sub/timeline_icon01.png" alt="좋아요 아이콘 이미지"/>24</span>
+												<span><img src="../images/sub/timeline_icon02.png" alt="댓글 아이콘 이미지"/>63</span>	
+											</div>	
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline_wrap">
+										<p class="time">AM08:25</p>
+									</div>
+									<div class="timecircle"></div>
+									<div class="timeline_content_wrap">
+										<div class="timeline_content">
+											<div class="timeline_content_l">
+												<a href="#">겨울교복에 어울리는 아이템은 뭐가 있을까?</a>
+											</div>
+											<div class="timeline_content_r">
+												<span><img src="../images/sub/timeline_icon01.png" alt="좋아요 아이콘 이미지"/>24</span>
+												<span><img src="../images/sub/timeline_icon02.png" alt="댓글 아이콘 이미지"/>63</span>	
+											</div>	
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline_wrap">
+										<p class="time">AM08:25</p>
+									</div>
+									<div class="timecircle"></div>
+									<div class="timeline_content_wrap">
+										<div class="timeline_content">
+											<div class="timeline_content_l">
+												<a href="#">겨울교복에 어울리는 아이템은 뭐가 있을까?</a>
+											</div>
+											<div class="timeline_content_r">
+												<span><img src="../images/sub/timeline_icon01.png" alt="좋아요 아이콘 이미지"/>24</span>
+												<span><img src="../images/sub/timeline_icon02.png" alt="댓글 아이콘 이미지"/>63</span>	
+											</div>	
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline_wrap">
+										<p class="time">AM08:25</p>
+									</div>
+									<div class="timecircle">
+									</div>
+									<div class="timeline_content_wrap">
+										<div class="timeline_content">
+											<div class="timeline_content_l">
+												<a href="#">겨울교복에 어울리는 아이템은 뭐가 있을까?</a>
+											</div>
+											<div class="timeline_content_r">
+												<span><img src="../images/sub/timeline_icon01.png" alt="좋아요 아이콘 이미지"/>24</span>
+												<span><img src="../images/sub/timeline_icon02.png" alt="댓글 아이콘 이미지"/>63</span>	
+											</div>	
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>	
+				</section>
+				<!-- 컨텐츠 End. -->
+				</div>
+		</section>
     </div>
-  </div>
+</div>
 <!-- wrapper End. -->
 
 <!-- footer start -->
@@ -405,29 +428,8 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
-			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
-		</div>
 </div>
 <!-- footer End. -->
-
-
-<!-- 탑버튼 스크립트 영역 -->
-<script>
-$( document ).ready( function() {
-  $( window ).scroll( function() {
-    if ( $( this ).scrollTop() > 200 ) {
-      $( '.btn_top_1' ).fadeIn();
-    } else {
-      $( '.btn_top_1' ).fadeOut();
-    }
-  });
-  $( '.btn_top_1' ).click( function() {
-    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
-    return false;
-  });
-});
-</script>
 
 
 <!-- 헤더 스크립트 영역 -->
@@ -466,12 +468,12 @@ $(function () {
     });
 
     $(".nav_box_ob").mouseover(function () {
-        $("#new_hd").addClass("hd_active6");
+        $("#new_hd").addClass("hd_active");
         $(".sub_nav_box").stop().slideDown(200);
     });
 
     $("#new_hd").mouseleave(function () {
-        $("#new_hd").removeClass("hd_active6");
+        $("#new_hd").removeClass("hd_active");
         $(".sub_nav_box").stop().slideUp(100);
     });
 
@@ -537,9 +539,10 @@ $('.nav_box > li > a').mouseover(function () {
 });
 
 $('#wrapper').mouseout(function () {
-    $('.header_bottom_wrap').stop().slideUp(100);
-});
+    $('.header_bottom_wrap').stop().slideUp(100);	
+});       
 </script>
+
 
 
  </body>

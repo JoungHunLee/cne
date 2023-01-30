@@ -7,7 +7,7 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>희망나눔 view</title>
+  <title>소식나눔 view</title>
   
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
@@ -24,14 +24,13 @@
   <!-- jquery cdn -->
   <script src="../js/jquery-3.2.1.min.js"></script>
   <script src="../js/jquery-1.12.4.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- swiper slider -->
   <link rel="stylesheet" href="../css/swiper.min.css"/>
   <script src="../js/swiper.min.js"></script> 
 
  </head>
- <body class="content_sub04_view_bg01">
+ <body class="content_sub04_view_bg">
 
 
 
@@ -239,20 +238,19 @@
  <div id="wrapper">
     <div id="container">
 		<!-- 상단 네비 start -->
-<section id="sub05_view_wrap01">
-    <div class="sub04_view_bg02"></div>
+<section id="sub04_view_wrap01">
 			<div class="container">
-				<div class="sub05_nav_view">
+				<div class="sub02_nav_view">
 					<div class="sub_view_nav">
 						<div class="sub_view_nav_cont">
 							<ul>
 								<li><img src="../images/common/home_icon.svg" alt="서브페이지 홈 아이콘 이미지"/></li>
 								<li>나눔</li>
-								<li>희망나눔</li>
+								<li>소식나눔</li>
 							</ul>
 						</div>
 						<div class="back_btn_wrap04">
-							<a href="sub04_list.html"><span><img src="../images/sub/sub04_arrow_img01.svg" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
+							<a href="sub03_list.html"><span><img src="../images/sub/sub04_arrow_img01.svg" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
 						</div>
 					</div>
 				</div>
@@ -261,186 +259,176 @@
 		
 		<!-- 상단 네비 End. -->
 		<!-- 컨텐츠 start -->
-				<section id="sub05_view_wrap">
+				<section id="sub04_view_wrap">
 					<div class="container">
 						<div class="sub02_view_content">
-							<div class="sub05_view_cont01">
-                                <div class="sub05_top_wrap">
+							<div class="sub04_view_cont01">
 								<div class="sub_04_view_t_l">
-									<ul class="sub_05_keyword">
-										<li>희망나눔</li>
-										<li>기타</li>
+									<ul class="sub_04_keyword">
+										<li>소식나눔</li>
+										<li>교육</li>
 									</ul>
 									<div class="sub_02_view_title">
-										<h2>대천중학교 한물결출제를 도와주세요!</h2>
+										<h2>2022년 청소년 역사캠프</h2>
 									</div>
-									<div class="sub_05_con">
+									<div class="sub_04_con">
 										<ul>
-											<li>작성자<span>배민서 (은진초등학교)</span></li>
-											<li>모금기간<span>2022-11-18(금)~2022-12-18(일)</span></li>
-											<li>D-12</li>
+											<li>참여기간<span>이채안 (복자여자고등학교)</span></li>
+											<li><span>2022-11-18(금)~2022-12-18(일)</span></li>
+											<li>D-13</li>
+                                            <li>조회수<span>58</span></li>
+                                            <li>참여<span>238</span>명</li>
 										</ul>
 									</div>
 								</div>
-								<div class="sub_05_view_t_r">
-									<div class="sub_cont_left">
-                                        <div class="chart_wrap02">
-                                            <div class="chart_l">
-                                                <div class="bar-chart02">
-                                                    <!-- bar -->
-                                                    <div class="chart clearfix">
-                                                        <div class="item">
-                                                            <div class="bar">
-                                                                <span class="persen"></span>
-                                                                <div class="progress" data-persen="50" style="width: 21.92px;">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="point_chek">
-                                                <p>8,000</p>
-                                            </div>
-                                        </div>
-                                        <div class="point_wrap">
-                                                <ul>
-                                                    <li>목표<span>50,000</span></li>
-                                                    <li>
-                                                        <div class="point_bg">p</div></li>
-                                                </ul>
-                                            </div>
-                                    </div>
-                                    <div class="sub_cont_right">
-                                        <p>달성률</p>
-                                        <p>16%</p>
-                                    </div>
+								<div class="sub_04_view_t_r">
+									<div class="good_wrap">
+										<img src="../images/sub/view02_icon01.png" alt="좋아요 아이콘 이미지"/>
+										<p><span>14</span>명</p>
+									</div>
 								</div>
-                            </div>
-
-                            <div class="sub05_cont01">
-                                <p>안녕하세요! 대천중학교 전교회장 박준교입니다!</p>
-                                <p>코로나-19의 영향으로 3년간 학교 축제, 체육대회 등 당양한 학생 중심 활동이 제한된 이후, 올해에는 다행히 코로나 확산이 줄어들어서 저희 학생회의 공약 중 하나인 학생회가 주최하는<br>
-                                한물결 축제를 하게 되었습니다. 이와 관련하여 학생들을 위해 계획한 축제 준비와 공약을 실천하기 위해서 희망 나눔을 부탁드리게 되었습니다.</p>
-                                <p>대천중학교 학생회가 야심차게 준비한 공약입니다. 현재 계획한 공약을 실천하기 위해서는 많은 학우분들의 도움과 관심이 필요합니다. 학생들의 소중하고 기억에 남을 축제의 원활한 개최를<br>
-                                위해 저희를 도와주시기 바랍니다! 감사합니다^^</p>
-                            </div>
-                            <div class="sub05_cont02">
-                                <ul>
-                                    <li><button type="button"><img src="../images/sub/sub05_icon01.png" alt="신고하기 아이콘"/></button></li>
-                                    <li><button type="button"><img src="../images/sub/sub05_icon02.png" alt="프린트 아이콘"/></button></li>
-                                    <li><button type="button"><img src="../images/sub/sub05_icon03.png" alt="공유하기 아이콘"/></button></li>
-                                    <li><button type="button">희망 후원하기</button></li>
-                                </ul>
-                            </div>
-
-
-
 							</div>
 						</div>
 					</div>	
 				</section>
 				<!-- 컨텐츠 End. -->
-                <section id="sub05_view_wrap03">
+                <section id="sub04_view_wrap02">
                     <div class="container">
-                        <div class="sub05_cont_box">
-                            <div class="sub05_cont_box_l">
-                                <!-- 상단 두번째 텝메뉴 -->
-                                <div id="tabbtnbox03">
-                                    <button class="tabbtn tactive0555" type="button">
-                                        <span>소원소개</span>
-                                    </button>
-                                    <button class="tabbtn" type="button">
-                                        <span>응원한마디</span>
-                                    </button> 
-                                    <button class="tabbtn" type="button">
-                                        <span>실현결과</span>
-                                    </button>
-                                    <div class="tabbtnsolid03"></div> 
-                                </div>
-                                <!-- 상단 두번째 텝메뉴  End. -->
-                                
-                                <div id="tabcontbox">
-                                    <div class="tabcont">	
-                                        <!-- 첫번째 텝메뉴 컨텐츠 start -->
-                                        <div  id="tab_1" class="tab-content current">
-                                            <div class="sub05_content_box01">
-                                                <p>문제사항</p>
-                                                <div class="sub05_content_box01_01">
-                                                    <p>1. 무대설치<br>
-                                                    -학생들의 끼를 발산할 수 있는 공연을 위한 무대 및 찬조공연 장치를 준비하고자 합니다.<br>
-                                                    -학생들의 다양한 장기와 감춰왔던 재능과 끼를 발산하기 위한 무대를 마련하고자 합니다.</p>
-                                                    <p>2. 야외 부스 및 실내 학급 부스 운영<br>
-                                                    - 학생들이 직접 운영하고 체험하면서 다양한 문화 체험 활동을 경험하는 기회를 만들고자 합니다.<br>
-                                                - 다양한 야외 부스를 운영하면서 학생들이 자유롭게 참여할 수 있는 기회를 만들고자 합니다.</p>
-                                                <p>3. 다양한 이벤트 실시<br>
-                                                - 학생들에게 행복한 추억을 만들어주기 위한 이벤트를 진행하고자 합니다.<br>
-                                            - 학생들이 즐거워하면서 모든 학생이 주인공이 될 수 있는 다양한 이벤트를 준비하고자 합니다.</p>
-                                                </div>
-                                            </div>
-                                            <div class="sub05_content_box02">
-                                                <p>프로젝트진행</p>
-                                                <div class="sub05_content_box02_01">
-                                                    <p>1. 다양한 이벤트 실시<br>
-                                                        2. 무대설치<br>
-                                                        3. 야외 부스 및 실내 학급 부스 운영
-                                                        
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="tabcontbox">
-                                    <div class="tabcont">	
-                                        <!-- 첫번째 텝메뉴 컨텐츠 start -->
-                                        <div  id="tab_1" class="tab-content current">
-                                            응원한마디
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="tabcontbox">
-                                    <div class="tabcont">	
-                                        <!-- 첫번째 텝메뉴 컨텐츠 start -->
-                                        <div  id="tab_1" class="tab-content current">
-                                            실현결과 
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
+                        <div class="sub04_view_wrap02_bg">
+                            <div class="sub04_cont01">
+                                <ul>
+                                    <li><button type="button"><img src="../images/sub/sub04_img01.png" alt="프린트 아이콘"/></button></li>
+                                    <li><button type="button"><img src="../images/sub/sub04_img02.png" alt="공유 아이콘"/></button></li>
+                                    <li><button type="button">소식나눔 참여하기</button></li>
+                                </ul>
                             </div>
-                            <div class="sub05_cont_box_r">
-                               <span><img src="../images/sub/sub05_icon04.png" alt="말풍선 아이콘"/>담당자 답변</span>
-                                <div class="sub05_cont_box_r01">
-                                    <div class="sub05_cont_box_r01_t">
-                                        <div class="sub05_cont_box_r01_t_l">
-                                            <img src="../images/sub/sub05_icon05.png" alt="들락날락관리자로고아이콘"/>
-                                        </div>
-                                        <div class="sub05_cont_box_r01_t_r">
-                                            <p>전체관리자</p>
-                                            <p>2022-10-14 13:59:42</p>
-                                        </div>
-                                    </div>
-                                    <div class="sub05_cont_box_r01_c">
-                                        <p>안녕하세요. 들락날락 관리자입니다. 회망하신<br>
-                                        "장학중학교 학생회를 도와주세요!!!"는 모금에<br>
-                                    성공하셨습니다.☆☆축하합니다☆☆아쉽게<br>
-                                도2022년 희망나눔 지원예산은 소진되었습<br>
-                            니다. 예산 지원은 2023년 3월 1일부터 가능<br>
-                        합니다. 그때 예산을 지원받아도 실현 활동이<br>
-                    가능한지 확인이 필요하오니, 640-7413으로<br>
-                전화 주시면 자세히 안내드리겠습니다.감사합<br>
-            니다^^</p>
-                                    </div>
-                                </div>
+                            <div class="sub04_cont02">
+                                <p>■ 행사명: 2022년 충남 청소년 역사체험 캠프</p>
+                                <p>■ 대상: 충청남도 중·고등학생 48팀 선정</p>
+                                <p><span>- 중학교: 청양중, 대산중, 계룡중, 신평중, 온양한올중, 논산중, 송악중, 서산중, 탕정중, 환서중, 태안여중, 내포중, 동강중, 천안동중, 공주북중, 천안백석중, 청양중, 남포중, 공주여중,임<br>
+                                성중, 대산중, 대천여중<br>
+                                - 고등학교: 부석고, 공동체비전고, 강경상업고, 갈산고, 대흥고, 천안업성고, 북일여고, 안면고, 홍성여고, 부여여고, 웅천고, 천안공고, 삼성고, 천안두정고, 장항고, 태안여고, 논산여고, 배방고</span></p>
+                                <p>■ 참여 방법: 역사 유적지를 답사하며 느낀 소감과 찍은 사진을 등록<br>
+                                    <span>- 사진 등록시 일시, 소속학교, 답사 장소, 느낌 등을 작성해 주시기 바랍니다.</span></p>
+                                <p>■ 유의사항
+                                    <br>1. 사진 촬영 전 핸드폰 설정을 다음과 같이 변경해주세요<br>
+                                    <span> - 안드로이드(갤럭시): 사진촬영 → 설정 → '위치태그'활성화<br>
+                                    - IOS(아이폰): ① 설정 → 위치서비스 → '위치서비스'활성화<br>
+                                    ② 설정 → 카메라 → 포맷 → '높은 호환성' 선택</span>
+                                </p>
+                                <p>2. 사진 촬영 후에 카카오톡 pc로 사진을 받아 올리는 경우 위치 정보가 사라지는 경우가 있습니다. 모바일로 등록하시기를 추천드립니다.</p>
+                                <p>※궁금한 점이 있따면 들락날락 '질의응답' 또는 카카오톡 채널 '충남교육청 들락날락' 상담원에게 문의하시기 바랍니다^^</p>
+                                <p>☆☆들락날락은 여러분들의 자유로운 소통과 따뜻한 나눔을 항상 응원합니다.☆☆</p>
                             </div>
                         </div>
                     </div>
                 </section>
-                
+                <section id="sub04_view_wrap02">
+                    <div class="container">
+                        <div class="sub04_cont03">
+                           <div class="sub04_cont03_l">
+                            <span><img src="../images/sub/sub04_img03.png" alt="좌표 아이콘 이미지"/> 소식지도</span>
+                            <div class="sub04_cont03_map">
+                                <img src="../images/sub/sub04_img09.png" alt="지도 맵 이미지"/>
+                            </div>
+                           </div>
+                           <div class="sub04_cont03_r">
+                            <span><img src="../images/sub/sub04_img04.png" alt="그림 아이콘 이미지"/> 소식공유</span>
+                            <div class="veiw_list_wrap5">
+                                <div class="view_list_cont">
+                                    <ul>
+                                        <li>
+                                            <a href="sub02_view.html"><div class="view_list_cont_box">
+                                                <img src="../images/sub/sub04_img10.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail">
+                                                <div class="view_list_cont_text">
+                                                    <h3>타이틀이 들어갑니다</h3>
+                                                    <div class="veiw_list_cont_box01">
+                                                        <ul>
+                                                            <li>배민서 (은진초등학교)</li>
+                                                            <li class="date01">2022-11-18</li>
+                                                        </ul>
+                                                    </div>
+                                                    <ul class="f_list">
+                                                        <li><img src="../images/sub/icon04.svg" alt="게시글 아이콘 이미지">3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><div class="view_list_cont_box">
+                                                <img src="../images/sub/sub04_img10.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail">
+                                                <div class="view_list_cont_text">
+                                                    <h3>타이틀이 들어갑니다</h3>
+                                                    <div class="veiw_list_cont_box01">
+                                                        <ul>
+                                                            <li>배민서 (은진초등학교)</li>
+                                                            <li class="date01">2022-11-18</li>
+                                                        </ul>
+                                                    </div>
+                                                    <ul class="f_list">
+                                                        <li><img src="../images/sub/icon04.svg" alt="게시글 아이콘 이미지">3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><div class="view_list_cont_box">
+                                                <img src="../images/sub/sub04_img10.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail">
+                                                <div class="view_list_cont_text">
+                                                    <h3>타이틀이 들어갑니다</h3>
+                                                    <div class="veiw_list_cont_box01">
+                                                        <ul>
+                                                            <li>배민서 (은진초등학교)</li>
+                                                            <li class="date01">2022-11-18</li>
+                                                        </ul>
+                                                    </div>
+                                                    <ul class="f_list">
+                                                        <li><img src="../images/sub/icon04.svg" alt="게시글 아이콘 이미지">3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><div class="view_list_cont_box">
+                                                <img src="../images/sub/sub04_img10.png" alt="게시판 리스트 썸네일 이미지" class="thumbnail">
+                                                <div class="view_list_cont_text">
+                                                    <h3>타이틀이 들어갑니다</h3>
+                                                    <div class="veiw_list_cont_box01">
+                                                        <ul>
+                                                            <li>배민서 (은진초등학교)</li>
+                                                            <li class="date01">2022-11-18</li>
+                                                        </ul>
+                                                    </div>
+                                                    <ul class="f_list">
+                                                        <li><img src="../images/sub/icon04.svg" alt="게시글 아이콘 이미지">3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        <div class="sub04_page_list">
+                            <ul>
+                                <li><button type="button"><img src="../images/sub/sub04_img05.png" alt="맨처음으로 아이콘"/></button></li>
+                                <li><button type="button"><img src="../images/sub/sub04_img06.png" alt="이전으로 아이콘"/></button></li>
+                                <li>
+                                    <div class="page_bg"><a href="#">1</a></div></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><button type="button"><img src="../images/sub/sub04_img07.png" alt="맨끝으로 아이콘"/></button></li>
+                                <li><button type="button"><img src="../images/sub/sub04_img08.png" alt="다음으로 아이콘"/></button></li>
+                            </ul>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
               
 		</section>
 		
@@ -461,29 +449,9 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
-			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
-		</div>
 </div>
 <!-- footer End. -->
 
-
-<!-- 탑버튼 스크립트 영역 -->
-<script>
-$( document ).ready( function() {
-  $( window ).scroll( function() {
-    if ( $( this ).scrollTop() > 200 ) {
-      $( '.btn_top_1' ).fadeIn();
-    } else {
-      $( '.btn_top_1' ).fadeOut();
-    }
-  });
-  $( '.btn_top_1' ).click( function() {
-    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
-    return false;
-  });
-});
-</script>
 
 <!-- 헤더 스크립트 영역 -->
 <script type="text/javascript">
@@ -628,33 +596,5 @@ $('#wrapper').mouseout(function () {
       keyboard: true,
     });
   </script>
-  <!-- 그래프 스크립트 -->
-<script>
-	$(document).ready(function(){
-		barChart();
-	
-		$(window).resize(function(){
-			barChart();
-		});
-	
-		function barChart(){
-			$('.bar-chart02').find('.progress').each(function(){
-				var itemProgress = $(this),
-				itemProgressWidth = $(this).parent().width() * ($(this).data('persen') / 100);
-				itemProgress.css('width', itemProgressWidth);
-			});
-		}
-	});
-	</script>
-    <!-- 상단 두번째 텝메뉴 스크립트 영역 -->
-<script>
-	$(".tabbtn").click(function() {
-	   var num = $(this).index();
-	   $(".tabcont").hide();
-	   $(".tabcont").eq(num).show();
-	   $(".tabbtn").removeClass("tactive0555");
-	   $(this).addClass("tactive0555");
-   });
-</script>
  </body>
 </html>

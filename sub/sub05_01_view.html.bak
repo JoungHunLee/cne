@@ -7,7 +7,7 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>한마당 write</title>
+  <title>토의 view</title>
   
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
@@ -35,7 +35,7 @@
  
  
  </head>
- <body class="today_talk_view_bg">
+ <body class="today_talk_view_bg5">
 
 
 
@@ -45,7 +45,7 @@
 
 <header id="new_hd" class="hd_wrap">
 	<div class="hd_area">
-		<div class="hd_con2">
+		<div class="hd_con4">
 			<div class="hd_size">
 				<div class="logo">
 					<a href="../index.html">
@@ -242,136 +242,195 @@
  <!-- wrapper start -->
  <div id="wrapper">
     <div id="container">
-		<section id="sub02_write_wrapper">
+		<section id="sub05_view_wrapper">
 			<div class="container">
 
                 <!-- sub01_write_nav start -->
-				<div class="sub02_write_nav">
-					<div class="sub_write_nav">
+				<div class="sub05_view_nav05">
+					<div class="sub_view_nav05">
 						<div class="sub_view_nav_cont">
 							<ul>
 								<li><img src="../images/common/home_icon.svg" alt="서브페이지 홈 아이콘 이미지"/></li>
 								<li>소통</li>
-								<li>한마당</li>
+								<li>토의</li>
 							</ul>
 						</div>
 						<div class="back_btn_wrap">
-							<a href="sub02_list.html"><span><img src="../images/sub/left_arrow.svg" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
+							<a href="sub05_01_list.html"><span><img src="../images/sub/sub05_view_img01.png" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
 						</div>
 					</div>
 				</div>
                 <!-- sub01_write_nav End. -->
 
                 <!-- 상단 컨텐츠 시작 -->
-                <section id="sub02_write_wrap_top">
+                <section id="sub05_view_wrap_top">
                     <div class="container">
-                        <div class="sub_write_top_cont_wrap">
+                        <div class="sub_view_top_cont_wrap05">
                             <div class="sub_write_top_l">
-                                <p>한마당 등록 전<br/>꼭! 읽어주세요.</p>
-                                <img src="../images/sub/sub02_write_img01.png" alt="확성기 아이콘 이미지"/>
+                                <p>학생토의에 참여하기 전<br/>읽어주세요.</p>
+                                <img src="../images/sub/sub05_view_img02.png" alt="확성기 아이콘 이미지"/>
                             </div>
                             <div class="sub_write_top_r">
                                 <ul>
-                                    <li><img src="../images/sub/sub02_write_img03.png" alt="체크 아이콘 이미지"/><span><span class="bold_style">본인이 제작한 영상</span>만 등록해주세요.</span></li>
-                                    <li><img src="../images/sub/sub02_write_img03.png" alt="체크 아이콘 이미지"/><span>관리자 <span class="bold_style">승인 후 등록</span>됩니다.</span></li>
-                                    <li><img src="../images/sub/sub02_write_img03.png" alt="체크 아이콘 이미지"/><span>등록한 영상이 다음과 같은 경우에 해당된다고 판단되는 경우 <span class="bold_style">예고 없이 삭제</span>됩니다.</span></li>
+                                    <li><img src="../images/sub/sub05_view_img04.png" alt="체크 아이콘 이미지"/><span>토의은 서로간의 다름을 확인하는 것이 아니라 <span class="bold_style">서로를 인정하고 더 나은 지향점을 찾아가기 위한 과정</span>임을 알고 있습니다.</span></li>
+                                    <li><img src="../images/sub/sub05_view_img04.png" alt="체크 아이콘 이미지"/><span>기본 예절이 부족, 가짜 뉴스, 확인 되지 않는 사실 게재, 여론 조작, 혐오, 비방 등을 목적으로 할 시 예고 없이 글이 <span class="bold_style">삭제될 수 있음을 인지</span>했습니다.</span></li>
+                                    <li><img src="../images/sub/sub05_view_img04.png" alt="체크 아이콘 이미지"/><span><span class="bold_style">토의과 관련 없는 파일, 사진, 동영상 등을 업로드 할 시</span> 예고 없이 삭제될 수 있음을 인지했습니다.</span></li>
+                                    <li><img src="../images/sub/sub05_view_img04.png" alt="체크 아이콘 이미지"/><span>위사항을 <span class="bold_style">모두 동의하고 준수</span>할 것을 약속합니다.</span></li>
+                                    <li><img src="../images/sub/sub05_view_img04.png" alt="체크 아이콘 이미지"/><span><span class="bold_style">1회당 300자 이내, 총 5회 발언권</span>에 대한 내용을 인지했습니다.</span></li>
                                 </ul>
-                                <div class="sub_write_top_c_wrap">
-                                    <div class="sub_write_top_c_l">
-                                        <ul>
-                                            <li>타인을 비방하거나 명예를 회손시키는 영상</li>
-                                            <li>공공질서에 위반되는 정보를 유포하는 영상</li>
-                                            <li>영리를 목적으로 하는 광고 영상</li>
-                                        </ul>
-                                    </div>
-                                    <div class="sub_write_top_c_r">
-                                        <ul>
-                                        <li>범죄적 행위에 해당하는 영상</li>
-                                        <li>다른 이용자 또는 제 3자의 저작권 등 기타 권리를 침해하는 영상</li>
-                                        <li>기타 정보통신 관련 법령에 위배되는 영상</li>
-                                    </ul>
-                                    </div>
-                                </div>
-                                <div class="sub_write_top_b_wrap">
-                                    <ul>
-                                        <li><input type="checkbox" id="scales" name="scales" checked>
-                                            <label for="scales">위 사항에 모두 동의하고 준수할 것을 약속합니다.</label>
-                                        </li>
-                                    </ul>
-                                </div>
+                                
                             </div>
                             
+				          
                         </div>
                     </div>
                 </section>
-				<img src="../images/sub/sub02_write_img02.png" alt="한마당write 사람 이미지"/>	
 				<!-- 컨텐츠 start -->
-				<section id="sub02_write_wrap">
+                <img src="../images/sub/sub05_view_img03.png" alt="한마당write 사람 이미지"/>	
+				<section id="sub05_view_wrap04">
 					<div class="container">
-						<div class="sub02_write_content">	
-							<div class="write_cont01">
-                                <ul class="write_keyword">
-                                    <li>한마당</li>
-                                </ul>
-                                <div class="write_title">
-                                    <h2>동영상등록하기</h2>
-                                </div>
-							</div>
-                            <div class="sub02_write_content01">
-                                <p>카테고리</p>
+                        <div class="sub05_view_contet_box_wrap">
+						<div class="sub05_view_contet_box_l">
+                            <div class="view_keywords01">
                                 <ul>
-                                    <li class="sub02_write_on"> 
-                                        <input type="radio" id="but1" name="">
-                                        <label for="but1">
-                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
-                                        </label>학교</li>
-                                    <li> <input type="radio" id="but2" name="">
-                                        <label for="but2">
-                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
-                                        </label>동아리</li>
-                                    <li> <input type="radio" id="but3" name="">
-                                        <label for="but3">
-                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
-                                        </label>크리에이터</li>
-                                    <li> <input type="radio" id="but4" name="">
-                                        <label for="but4">
-                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon"/>
-                                        </label>기타</li>
+                                    <li class="keyword_on01">학생토의</li>
+                                    <li>기타</li>
                                 </ul>
                             </div>
-                            <div class="sub02_write_content02">
-                                <div class="sub02_write_content02_l">
-                                    <p>제목</p>
-                                </div>
-                                <div class="sub02_write_content02_r">
-                                    <input tpye="text" placeholder="제목을 입력해주세요"/>
-                                </div>
-                            </div>
-                            <div class="sub02_write_content03">
-                                <div class="sub02_write_content03_l">
-                                    <p>내용</p>
-                                </div>
-                                <div class="sub02_write_content03_r">
-                                    <img src="../images/sub/smart_edit.png" alt="스마트에디터 이미지"/>
-                                </div>
-                            </div>
-                            <div class="sub02_write_content04">
-                                <div class="sub02_write_content04_l">
-                                    <p>동영상링크</p>
-                                </div>
-                                <div class="sub02_write_content04_r">
-                                    <input tpye="text" placeholder="http://youtube/ovs5Z0txMUY"/>
-                                    <p>※ Youtube URL을 입력해주세요.</p>
-                                    <p>※ 동영상링크는 수정이 불가능합니다.</p>
-                                </div>
-                            </div>
-                            <div class="sub02_write_content05">
+                            <div class="sub05_view_cont01_box">
+                                <h2>촉법소년 제도를 폐지해야 할까?</h2>
+                                <p>작성자<span>배민서(은진초등학교)</span></p>
                                 <ul>
-                                     <li><button type="button">등록하기</button></li>
-                                     <li><button type="button">취소하기</button></li>
+                                    <li><span>토의기간</span></li>
+                                    <li>2022-11-18(금)~2022-12-18(일)</li>
+                                    <li>D-12</li>
                                 </ul>
-                             </div>
-						</div>
+                            </div>
+                            <div class="sub05_view_cont02_box">
+                                <div class="sub05_view_cont02_box_cont01">
+                                    <div class="sub05_view_cont02_box_cont01_title">
+                                        <p>토의주제</p>
+                                    </div>
+                                    <div class="sub05_view_cont02_box_cont01_content">
+                                        <p>완전히 폐지하지 않고 촉법의 연령대를 줄이는 것이 현명하다고 생각한다.<br>
+                                        (100% 주관적인 주장이다.)</p>
+                                    </div>
+                                </div>
+                                <div class="sub05_view_cont02_box_cont02">
+                                    <div class="sub05_view_cont02_box_cont02_title">
+                                        <p>제안 이유</p>
+                                        <div class="sub05_view_cont02_box_cont02_content">
+                                            <p>촉법을 완전히 폐지한다면 실수로 범죄를 저지르거나, 어려서 판단을 제대로
+                                            하지 못해 저지른 범죄들을 어린 연령대에도 억울하게 그대로 받게 된다.하지
+                                        만 연령대를 줄이게 된다면, 충분히 현명한 선택을 할 수 있는 연령대의 아이
+                                    들이 저지른 범죄는 고의로 저지른 범죄로 처벌을 받게 되어 촉법이 바른 법이
+                                될 것이다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub05_view_cont02_box_cont03">
+                                    <div class="sub05_view_cont02_box_cont03_title">
+                                        <p>기타사항</p>
+                                        <div class="sub05_view_cont02_box_cont03_content">
+                                            <p>찬성 : 촉법소년도 억울할 것이다<br>
+                                            반대 : 촉법소년들이 저지르고 있는 범죄가 심각하다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub05_view_cont02_box_cont04">
+                                    <ul>
+                                        <li>#지역토의</li>
+                                        <li>#지역:전체</li>
+                                        <li>#학교급:전체</li>
+                                    </ul>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="sub05_view_contet_box_r">
+                            <div class="sub05_view_contet_box_r_cont01">
+                                <span><img src="../images/sub/sub05_view_img05.png" alt="말풍선 아이콘"/>의견작성하기</span>
+                            </div>
+                            <div class="comment_form_wrap2">
+                                <form action="/examples/media/action_target.php" method="get">
+                                    <textarea name="opinion" cols="30" rows="5" placeholder="댓글토의참여 입력하세요"></textarea><br>
+                                    <div class="comment_list_wrap2">
+                                        <div class="comment_wirte_num2">
+                                            <p><span>0</span> / 400</p>
+                                        </div>
+                                        <div class="comment_btn2">
+                                            <input type="submit" value="댓글등록">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="sub05_view_contet_box_r_cont03_01">
+								
+								<div class="ckadu01_01">
+								<span>참여현황<p>참여<span>238</span>명</p></span>
+													
+												</div>
+
+                                <div class="rather_l">
+                                    <ul>
+                                        <li>박하람</li>
+                                        <li><span>2022-06-30 12:18:24</span></li>
+                                    </ul>
+                                    <div class="rather_content">
+                                        <p>도와줘야 나중에 북한이 도와줄수 있었어</p>
+                                    </div>
+                                    <div class="rather_content_btn">
+                                        <ul>
+                                            <li><img src="../images/sub/comment_icon02.png" alt="찬성 아이콘"/><span>13</span></li>
+                                            <li><img src="../images/sub/comment_icon03.png" alt="반대 아이콘"/><span>1</span></li>
+                                            <li><button type="button">신고</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="rather_l">
+                                    <ul>
+                                        <li>박하린</li>
+                                        <li><span>2022-06-30 12:18:24</span></li>
+                                    </ul>
+                                    <div class="rather_content">
+                                        <p>도와줘야 나중에 북한이 도와줄수 있었어</p>
+                                    </div>
+                                    <div class="rather_content_btn">
+                                        <ul>
+                                            <li><img src="../images/sub/comment_icon02.png" alt="찬성 아이콘"/><span>13</span></li>
+                                            <li><img src="../images/sub/comment_icon03.png" alt="반대 아이콘"/><span>1</span></li>
+                                            <li><button type="button">신고</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+								<div class="rather_l">
+                                    <ul>
+                                        <li>박희라</li>
+                                        <li><span>2022-06-30 12:18:24</span></li>
+                                    </ul>
+                                    <div class="rather_content">
+                                        <p>도와줘야 나중에 북한이 도와줄수 있었어</p>
+                                    </div>
+                                    <div class="rather_content_btn">
+                                        <ul>
+                                            <li><img src="../images/sub/comment_icon02.png" alt="찬성 아이콘"/><span>13</span></li>
+                                            <li><img src="../images/sub/comment_icon03.png" alt="반대 아이콘"/><span>1</span></li>
+                                            <li><button type="button">신고</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub05_view_contet_box_r_cont04">
+                                <div class="veiw_list_wrap_btn06">
+                                    <button>더보기<img src="../images/sub/content_arrow_bottom.png" alt="아래 화살표 이미지"></button>
+                                </div>
+                            </div>
+                            
+
+
+
+
+                        </div>
+                        </div>
 					</div>	
 				</section>
 				<!-- 컨텐츠 End. -->
@@ -393,29 +452,9 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
-			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
-		</div>
 </div>
 <!-- footer End. -->
 
-
-<!-- 탑버튼 스크립트 영역 -->
-<script>
-$( document ).ready( function() {
-  $( window ).scroll( function() {
-    if ( $( this ).scrollTop() > 200 ) {
-      $( '.btn_top_1' ).fadeIn();
-    } else {
-      $( '.btn_top_1' ).fadeOut();
-    }
-  });
-  $( '.btn_top_1' ).click( function() {
-    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
-    return false;
-  });
-});
-</script>
 
 <!-- 헤더 스크립트 영역 -->
 <script type="text/javascript">
@@ -459,6 +498,16 @@ $(function () {
 
     $("#new_hd").mouseleave(function () {
         $("#new_hd").removeClass("hd_active");
+        $(".sub_nav_box").stop().slideUp(100);
+    });
+
+    $(".nav_box_ob").mouseover(function () {
+        $("#new_hd").addClass("hd_active3");
+        $(".sub_nav_box").stop().slideDown(200);
+    });
+
+    $("#new_hd").mouseleave(function () {
+        $("#new_hd").removeClass("hd_active3");
         $(".sub_nav_box").stop().slideUp(100);
     });
 
@@ -543,6 +592,26 @@ $(document).ready(function(){
         });
     }); 
 </script>
+
+
+<!-- 그래프 스크립트 -->
+<script>
+	$(document).ready(function(){
+		barChart();
+	
+		$(window).resize(function(){
+			barChart();
+		});
+	
+		function barChart(){
+			$('.bar-chart02').find('.progress').each(function(){
+				var itemProgress = $(this),
+				itemProgressWidth = $(this).parent().width() * ($(this).data('persen') / 100);
+				itemProgress.css('width', itemProgressWidth);
+			});
+		}
+	});
+	</script>
 
  </body>
 </html>

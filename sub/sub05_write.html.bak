@@ -7,7 +7,7 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>학생설문 write</title>
+  <title>학생토론 write</title>
   
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
@@ -242,17 +242,17 @@
  <!-- wrapper start -->
  <div id="wrapper">
     <div id="container">
-		<section id="sub06_write_wrapper">
+		<section id="sub05_write_wrapper">
 			<div class="container">
 
                 <!-- sub01_write_nav start -->
-				<div class="sub06_write_nav">
+				<div class="sub05_write_nav">
 					<div class="sub_write_nav">
 						<div class="sub_view_nav_cont">
 							<ul>
 								<li><img src="../images/common/home_icon.svg" alt="서브페이지 홈 아이콘 이미지"/></li>
 								<li>소통</li>
-								<li>학생설문</li>
+								<li>학생토론</li>
 							</ul>
 						</div>
 						<div class="back_btn_wrap04">
@@ -262,17 +262,46 @@
 				</div>
                 <!-- sub01_write_nav End. -->
 
+                <!-- 상단 컨텐츠 시작 -->
+                <section id="sub05_write_wrap_top">
+                    <div class="container">
+                        <div class="sub_write_top_cont_wrap05">
+                            <div class="sub_write_top_l">
+                                <p>토론 주제 등록 전<br/>꼭! 읽어주세요.</p>
+                                <img src="../images/sub/sub05_view_img02.png" alt="확성기 아이콘 이미지"/>
+                            </div>
+                            <div class="sub_write_top_r">
+                                <ul>
+                                    <li><img src="../images/sub/sub05_view_img04.png" alt="체크 아이콘 이미지"/><span>토론은 서로간의 다름을 확인하는 것이 아니라 <span class="bold_style">서로를 인정하고 더 나은 지향점을 찾아가기 위한 과정</span>임을 알고 있습니다.</span></li>
+                                    <li><img src="../images/sub/sub05_view_img04.png" alt="체크 아이콘 이미지"/><span>기본 예절이 부족, 가짜 뉴스, 확인 되지 않는 사실 게재, 여론 조작, 혐오, 비방 등을 목적으로 할 시 예고 없이 글이 <span class="bold_style">삭제될 수 있음을 인지</span>했습니다.</span></li>
+                                    <li><img src="../images/sub/sub05_view_img04.png" alt="체크 아이콘 이미지"/><span>목표 모금액(50,000포인트)에 도달하면, 세부계획을 검토하고 <span class="bold_style">100~500만원의 예산</span>을 지원합니다.</span></li>
+                                    <li><img src="../images/sub/sub05_view_img04.png" alt="체크 아이콘 이미지"/><span><span class="bold_style">토론과 관련 없는 파일, 사진, 동영상 등을 업로드 할 시</span> 예고 없이 삭제될 수 있음을 인지했습니다.</span></li>
+                                </ul>
+                                
+                                <div class="sub_write_top_b_wrap04">
+                                    <ul>
+                                        <li><input type="checkbox" id="scales" name="scales" checked>
+                                            <label for="scales">위 사항에 모두 동의하고 준수할 것을 약속합니다.</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+				<img src="../images/sub/sub05_view_img03.png" alt="한마당write 사람 이미지"/>	
                 </section>
 				<!-- 컨텐츠 start -->
-				<section id="sub06_write_wrap">
+				<section id="sub05_write_wrap">
 					<div class="container">
-						<div class="sub06_write_content">	
-							<div class="write_cont06">
-                                <ul class="write_keyword06_01">
-                                    <li>학생설문</li>
+						<div class="sub05_write_content">	
+							<div class="write_cont05">
+                                <ul class="write_keyword05_01">
+                                    <li>학생토론</li>
                                 </ul>
                                 <div class="write_title">
-                                    <h2>설문등록하기</h2>
+                                    <h2>토론등록하기</h2>
                                 </div>
 							</div>
 
@@ -280,36 +309,111 @@
 
 
 
-                            <div class="sub06_write_content01_box01">
+                            <div class="sub05_write_content01_box01">
                             
-                            <div class="sub06_write_content01_box01_wrap">
-                                <div class="sub06_write_content01_box01_wrap_t">
-                                    <p>설문정보</p>
+                            <div class="sub05_write_content01_box01_wrap">
+                                <div class="sub05_write_content01_box01_wrap_t">
+                                    <p>토론1단계</p>
                                 </div>
                             </div>
 
-
-                            <div class="sub06_write_content01_box02">
-                                <div class="sub06_write_content01_box01">
-                                    <ul>
-                                        <li>제목</li>
-                                        <li><input type="text" placeholder="새로운 희망 프로젝트명을 입력해주세요."></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                            <div class="sub06_write_content01_box02">
+                            <div class="sub05_write_content01_01">
+                                <p>카테고리</p>
                                 <ul>
-                                    <li>설문소개</li>
+                                    <li class="sub02_write_on"> 
+                                        <input type="radio" id="but1" name="">
+                                        <label for="but1">
+                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon">
+                                        </label>교육</li>
+                                    <li> <input type="radio" id="but2" name="">
+                                        <label for="but2">
+                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon">
+                                        </label>환경</li>
+                                    <li> <input type="radio" id="but3" name="">
+                                        <label for="but3">
+                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon">
+                                        </label>안전</li>
+                                    <li> <input type="radio" id="but4" name="">
+                                        <label for="but4">
+                                          <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon">
+                                        </label>문화</li>
+                                        <li> <input type="radio" id="but5" name="">
+                                            <label for="but5">
+                                              <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon">
+                                            </label>스포츠</li>
+                                            <li> <input type="radio" id="but6" name="">
+                                                <label for="but6">
+                                                  <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon">
+                                                </label>IT</li>
+                                                <li> <input type="radio" id="but7" name="">
+                                                    <label for="but7">
+                                                      <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon">
+                                                    </label>기타</li>
+                                </ul>
+                                
+
+                            </div>
+
+                            <div class="sub05_write_content01_box02_01">
+                                <ul>
+                                    <li>썸네일등록</li>
+                                    <li><div class="filebox">
+                                        <input class="upload-name" placeholder="첨부파일 등록(파일용량10MB 제한)" disabled="disabled">
+                                            <label for="ex_filename">파일선택</label> 
+                                            <input type="file" id="ex_filename" class="upload-hidden"> 
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub05_write_content01_box02">
+                                <ul>
+                                    <li>토론주제</li>
                                     <li><textarea placeholder="토론하고 싶은 주제를 정해주세요"></textarea><span>0 / 1,000자</span></li>
                                 </ul>
                             </div>
+                            <div class="sub05_write_content01_box02">
+                                <ul>
+                                    <li>나의주장</li>
+                                    <li><textarea placeholder="토론 주제에 대한 나의 주장을 작성해주세요"></textarea><span>0 / 1,000자</span></li>
+                                </ul>
+                            </div>
+                            <div class="sub05_write_content01_box03">
+                                <ul>
+                                    <li>근거</li>
+                                    <li><textarea placeholder="나의 주장에 대한 근거를 작성해주세요."></textarea><span>0 / 1,000자</span></li>
+                                </ul>
+                            </div>
+                            <div class="sub05_write_content01_box03">
+                                <ul>
+                                    <li>쟁점</li>
+                                    <li><textarea placeholder="찬성과 반대가 서로 다투는 부분은 작성해주세요"></textarea><span>0 / 1,000자</span></li>
+                                </ul>
+                            </div>
+                            <div class="sub05_write_content01_box04">
+                                <div class="sub05_write_content01_box04_wrap">
+                                    <div class="sub04_write_content01_box05_l">
+                                        <p>보충자료</p>
+                                    </div>
+                                    <div class="sub04_write_content01_box05_r">
+                                        <div class="sub04_write_content01_box05_btn">
+                                            <button type="button">자료 가져오기</button>
+                                        </div>
+                                        <input type="text" placeholder="자료 가져오기를 클릭해주세요."/>
+                                        <button type="button"><img src="../images/sub/sub04_manurs.png" alt="플러스 아이콘 이미지"/></button>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <div class="sub06_write_content01_box07">
-                                <div class="sub06_write_content01_box01_l">
+                            <div class="sub04_write_content01_box06">
+                            
+                            <p>상세내용</p>
+
+                            </div>
+                            <div class="sub05_write_content01_box07">
+                                <div class="sub05_write_content01_box01_l">
                                     <p>날짜</p>
                                 </div>
-                                <div class="sub06_write_content01_box01_r">
+                                <div class="sub05_write_content01_box01_r">
                                     <div class="input_date_box01">
                                         <input type="date">
                                        <span>~</span>
@@ -325,7 +429,9 @@
                                 </div>
                             </div>
 
-                            <div class="sub06_write_content01_box08">
+                            
+                            
+                            <div class="sub05_write_content01_box08">
                                 <div class="sub05_write_content01_02">
                                     <p>카테고리</p>
                                     <ul>
@@ -337,11 +443,11 @@
                                         <li> <input type="radio" id="but2" name="">
                                             <label for="but2">
                                               <img src="../images/sub/sub02_write_img04_off.png" alt="close_icon">
-                                            </label>학교토론</li>
+                                            </label></li>
                                         
                                     </ul>
                                     
-                                    <div class="sub06_select_wrap">
+                                    <div class="sub05_select_wrap">
                                         <ul>
                                             <li>지역</li>
                                             <li><select>
@@ -362,186 +468,41 @@
                                 </div>
                             </div>
 
-                            <div class="sub06_write_content01_box06">
-                                <p>항목등록</p>
-                            </div>
-                            
-                            <div class="item_registration_wrapper">
-                                <div class="item_registration_wrap">
-                                    <div class="item_registration_wrap_box01">
-                                        <p>1번문항</p>
-
-                                        <div class="item_registration_wrap_box01_01">
-                                            <div class="item_registration_box01">
-                                                <div class="item_registration_box01_write_content01_box01_l">
-                                                    <p>설문 유형선택</p>
-                                                </div>
-                                                <div class="item_registration_box01_write_content01_box01_r">
-                                                    <div class="input_date_box3">
-                                                        <ul>
-                                                            <li class="on3"><button type="button">단일선택형</button></li>
-                                                            <li><button type="button">다중선택형</button></li>
-                                                            <li><button type="button">단답형</button></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="item_registration_box02">
-                                                    <div class="item_registration_box02_l">
-                                                        <p>질문 및 보기</p>
-                                                    </div>
-                                                    <div class="item_registration_box02_r">
-                                                        <input type="text" placeholder="질문을 입력하세요"/>
-                                                    </div>
-                                                    <div class="item_registration_box02_02">
-                                                        <ul>
-                                                            <li><input type="radio"/></li>
-                                                            <li><input type="text" placeholder="보기를 입력하세요"/></li>
-                                                            <li><input type="checkbox"/> 자유응답형 추가</li>
-                                                            <li><button type="button"><img src="../images/sub/sub04_manurs.png" alt="마이너스 아이콘 이미지"/></button></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="item_registration_box02_02">
-                                                        <ul>
-                                                            <li><input type="radio"/></li>
-                                                            <li><input type="text" placeholder="보기를 입력하세요"/></li>
-                                                            <li><input type="checkbox"/> 자유응답형 추가</li>
-                                                            <li><button type="button"><img src="../images/sub/sub04_manurs.png" alt="마이너스 아이콘 이미지"/></button></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="item_registration_box02_03">
-                                                        <ul>
-                                                            <li><input type="radio"/></li>
-                                                            <li><input type="text" placeholder="보기를 입력하세요"/></li>
-                                                            <li><input type="checkbox"/> 자유응답형 추가</li>
-                                                            <li><button type="button"><img src="../images/sub/sub04_pluse.png" alt="마이너스 아이콘 이미지"/></button></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                
-                                        </div>
-                                    </div>
-                                    <div class="item_registration_wrap_box01">
-                                        <p>2번문항</p>
-
-                                        <div class="item_registration_wrap_box01_01">
-                                            <div class="item_registration_box01">
-                                                <div class="item_registration_box01_write_content01_box01_l">
-                                                    <p>설문 유형선택</p>
-                                                </div>
-                                                <div class="item_registration_box01_write_content01_box01_r">
-                                                    <div class="input_date_box3">
-                                                        <ul>
-                                                            <li ><button type="button">단일선택형</button></li>
-                                                            <li class="on3"><button type="button">다중선택형</button></li>
-                                                            <li><button type="button">단답형</button></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="item_registration_box02">
-                                                    <div class="item_registration_box02_l">
-                                                        <p>질문 및 보기</p>
-                                                    </div>
-                                                    <div class="item_registration_box02_r">
-                                                        <input type="text" placeholder="질문을 입력하세요"/>
-                                                    </div>
-                                                    <div class="item_registration_box02_02">
-                                                        <ul>
-                                                            <li><input type="checkbox"/></li>
-                                                            <li><input type="text" placeholder="보기를 입력하세요"/></li>
-                                                            <li><input type="checkbox"/> 자유응답형 추가</li>
-                                                            <li><button type="button"><img src="../images/sub/sub04_manurs.png" alt="마이너스 아이콘 이미지"/></button></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="item_registration_box02_02">
-                                                        <ul>
-                                                            <li><input type="checkbox"/></li>
-                                                            <li><input type="text" placeholder="보기를 입력하세요"/></li>
-                                                            <li><input type="checkbox"/> 자유응답형 추가</li>
-                                                            <li><button type="button"><img src="../images/sub/sub04_manurs.png" alt="마이너스 아이콘 이미지"/></button></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="item_registration_box02_03">
-                                                        <ul>
-                                                            <li><input type="checkbox"/></li>
-                                                            <li><input type="text" placeholder="보기를 입력하세요"/></li>
-                                                            <li><input type="checkbox"/> 자유응답형 추가</li>
-                                                            <li><button type="button"><img src="../images/sub/sub04_pluse.png" alt="마이너스 아이콘 이미지"/></button></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                
-                                        </div>
-                                    </div>
-                                    <div class="item_registration_wrap_box01">
-                                        <p>3번문항</p>
-
-                                        <div class="item_registration_wrap_box01_01">
-                                            <div class="item_registration_box01">
-                                                <div class="item_registration_box01_write_content01_box01_l">
-                                                    <p>설문 유형선택</p>
-                                                </div>
-                                                <div class="item_registration_box01_write_content01_box01_r">
-                                                    <div class="input_date_box3">
-                                                        <ul>
-                                                            <li ><button type="button">단일선택형</button></li>
-                                                            <li ><button type="button">다중선택형</button></li>
-                                                            <li class="on3"><button type="button">단답형</button></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="item_registration_box02">
-                                                    <div class="item_registration_box02_l">
-                                                        <p>질문 및 보기</p>
-                                                    </div>
-                                                    <div class="item_registration_box02_r">
-                                                        <input type="text" placeholder="질문을 입력하세요"/>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item_registration_btn">
-                                        <button type="button"><img src="../images/sub/registration_btn01.png" alt="문항추가하기 아이콘"/> 문항 추가하기</button>
-                                    </div>
-
-
-
-
-
-
-
-
-
-
-
-                                </div>
+                            <div class="radio_wrap01">
+                                <ul class="m_style01">
+                                    <li>발언 횟수</li>
+                                    <li><input type="radio" id="huey" name="drone" value="huey"
+                                        checked>
+                                        <label for="huey">5회</label>
+                                    </li>
+                                </ul>
                             </div>
 
-                            <div class="sub05_write_content06">
+                            <div class="radio_wrap02">
+                                <div class="radio_wrap02_content01">
+                                <ul class="m_style02">
+                                    <li>발언 글자수</li>
+                                    <li><input type="radio" id="huey" name="drone" value="huey"
+                                        checked>
+                                        <label for="huey">1회 당 300자 이내</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+
+
+
+                            </div>
+
+
+
+                            <div class="sub05_write_content05">
                                 <ul>
+                                    <li><button type="button">이전단계</button></li>
                                      <li><button type="button">등록하기</button></li>
                                      <li><button type="button">취소하기</button></li>
                                 </ul>
                              </div>
-
-                            
-                            
-                            
-
-                            
-                            </div>
-
-
-
-                            </div>
-
-
-
-                            
 						</div>
 					</div>	
 				</section>
@@ -564,29 +525,9 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
-			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
-		</div>
 </div>
 <!-- footer End. -->
 
-
-<!-- 탑버튼 스크립트 영역 -->
-<script>
-$( document ).ready( function() {
-  $( window ).scroll( function() {
-    if ( $( this ).scrollTop() > 200 ) {
-      $( '.btn_top_1' ).fadeIn();
-    } else {
-      $( '.btn_top_1' ).fadeOut();
-    }
-  });
-  $( '.btn_top_1' ).click( function() {
-    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
-    return false;
-  });
-});
-</script>
 
 <!-- 헤더 스크립트 영역 -->
 <script type="text/javascript">

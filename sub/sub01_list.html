@@ -75,7 +75,7 @@
       <ul class="sub_nav_box">
           <li><a href="#">토론</a></li>
   <li><a href="sub05_list.html">학생토론</a></li>
-  <li><a href="#">학생토의</a></li>
+  <li><a href="sub05_01_list.html">학생토의</a></li>
   <li><a href="sub06_list.html">학생설문</a></li>
 </ul>
   </li>
@@ -639,8 +639,29 @@
 			</div>
 		</div>
 	</div>
+<div class="btn_box">
+			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
+		</div>
 </div>
 <!-- footer End. -->
+
+
+<!-- 탑버튼 스크립트 영역 -->
+<script>
+$( document ).ready( function() {
+  $( window ).scroll( function() {
+    if ( $( this ).scrollTop() > 200 ) {
+      $( '.btn_top_1' ).fadeIn();
+    } else {
+      $( '.btn_top_1' ).fadeOut();
+    }
+  });
+  $( '.btn_top_1' ).click( function() {
+    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
+    return false;
+  });
+});
+</script>
 
 
 <!-- 헤더 스크립트 영역 -->

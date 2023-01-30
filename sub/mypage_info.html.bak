@@ -7,7 +7,7 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>모꼬지list</title>
+  <title>모꼬지mileage</title>
 
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
@@ -248,144 +248,136 @@
           </ul>
           <h2 class="page_title">mypage</h2>
           <ul class="mypage_deth">
-            <li class="current"><a href="mypage_list.html">나의 활동내역</a></li>
-            <li ><a href="mypage_mileage.html">마일리지</a></li>
-            <li><a href="mypage_info.html">회원정보</a></li>
+            <li><a href="#">나의 활동내역</a></li>
+            <li><a href="#">마일리지</a></li>
+            <li class="current"><a href="#">회원정보</a></li>
           </ul>
         </div>
 
         <div class="my_page_content_wrap">
-          <div class="con_left">
-            <div class="user_info_wrap">
-              <div class="user_info_box">
-                <div class="img_box">
-                  <img src="../images/sub/user_img.png" alt="프로필 이미지">
-                </div>
-                <div class="user_info">
-                  <span class="user_name">홍길동</span>
-                  <span class="user_school">길산중학교</span>
-                </div>
-                <a class="user_info_re" href="#">회원정보수정</a>
-              </div>
-              <a class="user_btn" href="#"><span>포인트</span><span class="point">1,047</span></a>
-              <a class="user_btn" href="#"><span>즐겨찾기 모꼬지</span><span class="count">24</span></a>
-              <a class="user_btn" href="#"><span>댓글관리</span><span class="count">15</span></a>
+
+          <div class="user_wrap">
+            <div class="user_img">
+              <img src="../images/sub/profile_img.png" alt="프로필 이미지">
+              <a class="user_img_setting" href="#" title="프로필 이미지 설정"></a>
+            </div>
+            <div class="text_box">
+              <span class="tit"><b>홍길동</b>님, 안녕하세요</span>
+              <p class="disc">회원정보를 수정하고 관리하세요</p>
             </div>
 
-            <div class="user_action_btn_list">
-              <a class="user_action_btn current" href="#">전체 나의 활동</a>
-              <a class="user_action_btn" href="#">나의 모꼬지</a>
-              <a class="user_action_btn" href="#">가입 모꼬지</a>
-              <a class="user_action_btn" href="#">한마당</a>
-              <a class="user_action_btn" href="#">소식 나눔</a>
-              <a class="user_action_btn" href="#">희망 나눔</a>
-              <a class="user_action_btn" href="#">학생 토론</a>
-              <a class="user_action_btn" href="#">학생 설문</a>
-              <a class="user_action_btn" href="#">학생 제안</a>
-            </div>
           </div>
-          <div class="con_right">
-            <div class="search_wrap">
-              <ul class="radios">
-                <li>
-                  <input id="s_radio_1" type="radio" name="s_radio" value="" checked>
-                  <label for="s_radio_1"><span>일주일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_2" type="radio" name="s_radio" value="">
-                  <label for="s_radio_2"><span>15일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_3" type="radio" name="s_radio" value="">
-                  <label for="s_radio_3"><span>1개월</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_4" type="radio" name="s_radio" value="">
-                  <label for="s_radio_4"><span>3개월</span></label>
-                </li>
-              </ul>
-              <input class="date_input first" type="date" name="" value="2022-12-24">
-              <span class="to">~</span>
-              <input class="date_input last" type="date" name="" value="">
-              <input class="search_input" type="text" name="" value="" placeholder="검색어를 입력하세요">
-              <button class="search_btn" type="submit" name="button">조회</button>
-            </div>
 
-            <div class="con_wrap">
-              <div class="cont_items">
-                <span class="title">
-                  나의 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
+          <div class="user_mem_info_wrap">
+            <div class="personal_wrap">
+              <h3>개인정보</h3>
+              <div class="info_input_table uinfo">
+                <dl class="">
+                  <dt>이름</dt>
+                  <dd>
+                    <input id="u_name" type="text" name="" value="홍길동">
+                  </dd>
+                </dl>
+                <dl class="">
+                  <dt>비밀번호</dt>
+                  <dd>
+                    <input id="u_pw" type="password" name="" value="12345678">
+                  </dd>
+                  <dt>비밀번호확인</dt>
+                  <dd>
+                    <input id="u_pw_r" type="password" name="" value="12345678">
+                  </dd>
+                </dl>
+                <dl class="">
+                  <dt>비밀번호찾기</dt>
+                  <dd class="split_wrap">
+                    <div class="split">
+                      <span>힌트</span>
+                      <select id="u_hint" class="" name="">
+                        <option value="" checked>내가 태어난 고향은 어디인가요?</option>
+                        <option value="">내가 다니던 학교는 어디인가요?</option>
+                      </select>
+                    </div>
+                    <div class="split">
+                      <span>답변</span>
+                      <input id="u_re" type="text" name="" value="대전">
+                    </div>
+                    <p class="disc">입력 답변은 비밀번호를 분실한 경우 본인 확인을 위하여 사용됩니다.</p>
+                  </dd>
+                </dl>
+                <dl class="">
+                  <dt>성별</dt>
+                  <dd>
+                    <input id="u_male" type="radio" name="u_gender" value="">
+                    <label for="u_male">남</label>
+                    <input id="u_female" type="radio" name="u_gender" value="">
+                    <label for="u_female">여</label>
+                  </dd>
+                </dl>
+                <dl class="">
+                  <dt>생년월일</dt>
+                  <dd>
+                    <input id="u_birth" type="text" name="" value="1973-04-22">
+                  </dd>
+                </dl>
+                <dl class="">
+                  <dt>이메일</dt>
+                  <dd class="split_a">
+                    <input id="u_email" type="text" name="" value="email">
+                    <span class="split_text">@</span>
+                    <input id="u_email_l" type="text" name="" value="naver.com">
+                    <select id="u_email_s" class="" name="">
+                      <option value="">직접입력</option>
+                      <option value="">네이버</option>
+                    </select>
+                  </dd>
+                </dl>
+                <dl class="">
+                  <dt>휴대폰</dt>
+                  <dd>
+                    <select id="u_phone_f" class="" name="">
+                      <option value="">010</option>
+                      <option value="">011</option>
+                    </select>
+                    <span class="split_text">-</span>
+                    <input id="u_phone_1" type="text" name="" value="0000">
+                    <span class="split_text">-</span>
+                    <input id="u_phone_2" type="text" name="" value="0000">
+                  </dd>
+                </dl>
               </div>
-              <div class="cont_items">
-                <span class="title">
-                  가입 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  한마당
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  소식 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  희망 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 토론
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 설문
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 제안
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
+            </div>
+            <div class="school_wrap">
+              <h3>학교정보</h3>
+              <div class="info_input_table uinfo">
+                <dl class="">
+                  <dt>학교코드</dt>
+                  <dd class="split_wrap">
+                    <input id="u_code" type="text" name="" value="M21-34469" readonly>
+                    <p class="disc">들락날락 고유 학교코드를 모르실 경우 선생님께 문의 바랍니다.</p>
+                  </dd>
+                </dl>
+                <dl class="">
+                  <dt>학교</dt>
+                  <dd>
+                    <input id="u_school" type="text" name="" value="길산중학교">
+                    <button id="u_school_search" type="button" name="button">학교검색</button>
+                    <span class="split_text bb">학년</span>
+                    <input id="u_grade" type="text" name="" value="3">
+                    <span class="split_text bb">반</span>
+                    <input id="u_class" type="text" name="" value="1">
+                  </dd>
+                </dl>
               </div>
             </div>
           </div>
+
+        <div class="btn_wrap">
+          <button class="submit" type="submit" name="button">등록하기</button>
+          <button type="button" name="button">취소하기</button>
+        </div>
+
+
         </div>
   		</section>
     </div>

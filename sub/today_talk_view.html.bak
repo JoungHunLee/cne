@@ -7,8 +7,8 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>모꼬지list</title>
-
+  <title>오늘톡 view</title>
+  
   <!-- 공통 css -->
   <link rel="stylesheet" href="../css/common.css"/>
 
@@ -18,26 +18,34 @@
   <!-- 리셋 css -->
   <link rel="stylesheet" href="../css/reset.css"/>
 
-  <!-- 서브 css -->
+  <!-- 서브 css -->		
   <link rel="stylesheet" href="../css/sub.css"/>
-  <link rel="stylesheet" href="../css/sub_design.css"/>
 
   <!-- jquery cdn -->
   <script src="../js/jquery-3.2.1.min.js"></script>
   <script src="../js/jquery-1.12.4.min.js"></script>
 
+  <!-- swiper slider -->
+  <link rel="stylesheet" href="../css/swiper.min.css"/>
+  <script src="../js/swiper.min.js"></script>
+
+
+ 
+
+ 
+ 
  </head>
- <body>
+ <body class="today_talk_view_bg">
 
 
 
-
+	
 
 <!-- header start -->
 
 <header id="new_hd" class="hd_wrap">
 	<div class="hd_area">
-		<div class="hd_con6">
+		<div class="hd_con2">
 			<div class="hd_size">
 				<div class="logo">
 					<a href="../index.html">
@@ -230,166 +238,143 @@
 <div class="m_bg" style="display: none;"></div>
 
 <!-- header End. -->
-
+ 
  <!-- wrapper start -->
  <div id="wrapper">
     <div id="container">
-      <!-- 왜 따로 만든지 모르겠음 -->
-      <div class="head_bg">
-
-      </div>
-      <!-- 시작 -->
-  		<section id="mypage">
-        <div class="page_head_wrap">
-          <ul class="page_navi_box">
-            <li class="home"><span>홈</span></li>
-            <li>제안</li>
-            <li>학생제안</li>
-          </ul>
-          <h2 class="page_title">mypage</h2>
-          <ul class="mypage_deth">
-            <li class="current"><a href="mypage_list.html">나의 활동내역</a></li>
-            <li ><a href="mypage_mileage.html">마일리지</a></li>
-            <li><a href="mypage_info.html">회원정보</a></li>
-          </ul>
-        </div>
-
-        <div class="my_page_content_wrap">
-          <div class="con_left">
-            <div class="user_info_wrap">
-              <div class="user_info_box">
-                <div class="img_box">
-                  <img src="../images/sub/user_img.png" alt="프로필 이미지">
-                </div>
-                <div class="user_info">
-                  <span class="user_name">홍길동</span>
-                  <span class="user_school">길산중학교</span>
-                </div>
-                <a class="user_info_re" href="#">회원정보수정</a>
-              </div>
-              <a class="user_btn" href="#"><span>포인트</span><span class="point">1,047</span></a>
-              <a class="user_btn" href="#"><span>즐겨찾기 모꼬지</span><span class="count">24</span></a>
-              <a class="user_btn" href="#"><span>댓글관리</span><span class="count">15</span></a>
-            </div>
-
-            <div class="user_action_btn_list">
-              <a class="user_action_btn current" href="#">전체 나의 활동</a>
-              <a class="user_action_btn" href="#">나의 모꼬지</a>
-              <a class="user_action_btn" href="#">가입 모꼬지</a>
-              <a class="user_action_btn" href="#">한마당</a>
-              <a class="user_action_btn" href="#">소식 나눔</a>
-              <a class="user_action_btn" href="#">희망 나눔</a>
-              <a class="user_action_btn" href="#">학생 토론</a>
-              <a class="user_action_btn" href="#">학생 설문</a>
-              <a class="user_action_btn" href="#">학생 제안</a>
-            </div>
-          </div>
-          <div class="con_right">
-            <div class="search_wrap">
-              <ul class="radios">
-                <li>
-                  <input id="s_radio_1" type="radio" name="s_radio" value="" checked>
-                  <label for="s_radio_1"><span>일주일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_2" type="radio" name="s_radio" value="">
-                  <label for="s_radio_2"><span>15일</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_3" type="radio" name="s_radio" value="">
-                  <label for="s_radio_3"><span>1개월</span></label>
-                </li>
-                <li>
-                  <input id="s_radio_4" type="radio" name="s_radio" value="">
-                  <label for="s_radio_4"><span>3개월</span></label>
-                </li>
-              </ul>
-              <input class="date_input first" type="date" name="" value="2022-12-24">
-              <span class="to">~</span>
-              <input class="date_input last" type="date" name="" value="">
-              <input class="search_input" type="text" name="" value="" placeholder="검색어를 입력하세요">
-              <button class="search_btn" type="submit" name="button">조회</button>
-            </div>
-
-            <div class="con_wrap">
-              <div class="cont_items">
-                <span class="title">
-                  나의 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  가입 모꼬지
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  한마당
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  소식 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  희망 나눔
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 토론
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 설문
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-              <div class="cont_items">
-                <span class="title">
-                  학생 제안
-                  <a class="more" href="#" title="더보기"></a>
-                </span>
-                <div class="cont">
-                  <span>해당 게시글이 없습니다</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  		</section>
+		<section id="today_list_wrapper">
+			<div class="container">
+				<div class="today_talk_nav_view">
+					<div class="sub_view_nav">
+						<div class="sub_view_nav_cont">
+							<ul>
+								<li><img src="../images/common/home_icon.svg" alt="서브페이지 홈 아이콘 이미지"/></li>
+								<li>소통</li>
+								<li>오늘톡</li>
+							</ul>
+						</div>
+						<div class="back_btn_wrap">
+							<a href="today_talk_list.html"><span><img src="../images/sub/left_arrow.svg" alt="목록으로 돌아가는 왼쪽화살표 이미지"/></span>목록으로 돌아가기</a>
+						</div>
+					</div>
+				</div>
+					
+				<!-- 컨텐츠 start -->
+				<section id="today_talk_wrap">
+					<div class="container">
+						<div class="today_talk_view_content">	
+							<div class="today_talk_view_cont01">
+								<div class="sub_02_view_t_l">
+									<ul class="today_talk_keyword">
+										<li>오늘톡</li>
+									</ul>
+									<div class="sub_02_view_title">
+										<h2>교복에 어울리는 아이템 뭐있을까?</h2>
+									</div>
+									<div class="sub_02_con">
+										<ul>
+											<li>작성자<span>배민서 (은진초등학교)</span></li>
+											<li>등록일<span>2022-10-28 12:15</span></li>
+											<li>조회수<span>58</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="sub_02_view_t_r">
+									<div class="good_wrap">
+										<img src="../images/sub/view02_icon01.png" alt="좋아요 아이콘 이미지"/>
+										<p>14명</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="today_talk_comment_wrap">
+							<div class="comment_cont01">
+								<p><img src="../images/sub/comment_icon01.png" alt="댓글 아이콘 이미지"/> 댓글달기</p>
+								<div class="comment_form_wrap">
+									<form action="/examples/media/action_target.php" method="get">
+										<textarea name="opinion" cols="30" rows="5"></textarea><br>
+										<div class="comment_list_wrap">
+											<div class="comment_wirte_num">
+												<p><span>0</span> / 400</p>
+											</div>
+											<div class="comment_btn">
+												<input type="submit" value="댓글등록"/>
+											</div>
+										</div>
+									</form>
+								</div>
+                                <div class="today_content02">
+                            <div class="today_content02_top">
+                                <p>댓글 238건</p>
+                            </div>
+                            <div class="today_content02_center">
+                                <div class="today_content02_cont01">
+                                    <ul>
+                                        <li>박하람</li>
+                                        <li><span>2022-06-30</span></li>
+                                        <li><span>12:18:24</span></li>
+                                    </ul>
+                                    <p>도와줘야나중에북한이도와줄수있었어</p>
+                                    <ul class="good_list_style">
+                                        <li><img src="../images/sub/comment_icon02.png" alt="추천 아이콘 이미지"/>13</li>
+                                        <li><img src="../images/sub/comment_icon03.png" alt="비추천 아이콘 이미지"/>1</li>
+                                        <li><button type="button">신고</button></li>
+                                    </ul>
+                                </div>
+                                <div class="today_content02_cont01">
+                                    <ul>
+                                        <li>박하람</li>
+                                        <li><span>2022-06-30</span></li>
+                                        <li><span>12:18:24</span></li>
+                                    </ul>
+                                    <p>도와줘야나중에북한이도와줄수있었어</p>
+                                    <ul class="good_list_style">
+                                        <li><img src="../images/sub/comment_icon02.png" alt="추천 아이콘 이미지"/>13</li>
+                                        <li><img src="../images/sub/comment_icon03.png" alt="비추천 아이콘 이미지"/>1</li>
+                                        <li><button type="button">신고</button></li>
+                                    </ul>
+                                </div>
+                                <div class="today_content02_cont01">
+                                    <ul>
+                                        <li>박하람</li>
+                                        <li><span>2022-06-30</span></li>
+                                        <li><span>12:18:24</span></li>
+                                    </ul>
+                                    <p>도와줘야나중에북한이도와줄수있었어</p>
+                                    <ul class="good_list_style">
+                                        <li><img src="../images/sub/comment_icon02.png" alt="추천 아이콘 이미지"/>13</li>
+                                        <li><img src="../images/sub/comment_icon03.png" alt="비추천 아이콘 이미지"/>1</li>
+                                        <li><button type="button">신고</button></li>
+                                    </ul>
+                                </div>
+                                <div class="today_content02_cont01">
+                                    <ul>
+                                        <li>박하람</li>
+                                        <li><span>2022-06-30</span></li>
+                                        <li><span>12:18:24</span></li>
+                                    </ul>
+                                    <p>도와줘야나중에북한이도와줄수있었어</p>
+                                    <ul class="good_list_style">
+                                        <li><img src="../images/sub/comment_icon02.png" alt="추천 아이콘 이미지"/>13</li>
+                                        <li><img src="../images/sub/comment_icon03.png" alt="비추천 아이콘 이미지"/>1</li>
+                                        <li><button type="button">신고</button></li>
+                                    </ul>
+                                </div>
+                                <div class="talk_comment_wrap_btn">
+                                    <button>더보기<img src="../images/sub/content_arrow_bottom.png" alt="아래 화살표 이미지"></button>
+                                </div>
+                            </div>
+                        </div>
+							</div>
+						</div>
+                        
+					</div>	
+				</section>
+				<!-- 컨텐츠 End. -->
+				</div>
+		</section>
     </div>
-  </div>
+</div>
 <!-- wrapper End. -->
 
 <!-- footer start -->
@@ -405,29 +390,8 @@
 			</div>
 		</div>
 	</div>
-<div class="btn_box">
-			<button class="btn_top_1" title="위로가기" style="display: inline-block;"><i class="xi-angle-up"></i><div class="btn_txt">TOP</div></button>
-		</div>
 </div>
 <!-- footer End. -->
-
-
-<!-- 탑버튼 스크립트 영역 -->
-<script>
-$( document ).ready( function() {
-  $( window ).scroll( function() {
-    if ( $( this ).scrollTop() > 200 ) {
-      $( '.btn_top_1' ).fadeIn();
-    } else {
-      $( '.btn_top_1' ).fadeOut();
-    }
-  });
-  $( '.btn_top_1' ).click( function() {
-    $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
-    return false;
-  });
-});
-</script>
 
 
 <!-- 헤더 스크립트 영역 -->
@@ -466,12 +430,12 @@ $(function () {
     });
 
     $(".nav_box_ob").mouseover(function () {
-        $("#new_hd").addClass("hd_active6");
+        $("#new_hd").addClass("hd_active");
         $(".sub_nav_box").stop().slideDown(200);
     });
 
     $("#new_hd").mouseleave(function () {
-        $("#new_hd").removeClass("hd_active6");
+        $("#new_hd").removeClass("hd_active");
         $(".sub_nav_box").stop().slideUp(100);
     });
 
@@ -537,9 +501,10 @@ $('.nav_box > li > a').mouseover(function () {
 });
 
 $('#wrapper').mouseout(function () {
-    $('.header_bottom_wrap').stop().slideUp(100);
-});
+    $('.header_bottom_wrap').stop().slideUp(100);	
+});       
 </script>
+
 
 
  </body>
