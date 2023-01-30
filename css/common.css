@@ -609,48 +609,28 @@ ol {
     width: 100%;
     height: auto;
     position: relative;
-    background: #4D8DE7;
 }
 
-/* 소통 헤더 영역 */
+#new_hd .hd_con2 {background:#57BBAD; width: 100%;
+    height: 100px;
+    position: relative; }
 
-#new_hd .hd_con2 {
-    width: 100%;
-    height: 100px;
-    position: relative;
-	background: #57BBAD;
-}
 
-/* 나눔 헤더 영역 */
-#new_hd .hd_con3 {
-    width: 100%;
+#new_hd .hd_con3 {background:#E593B8; width: 100%;
     height: 100px;
-    position: relative;
-	background: #E593B8;
-}
+    position: relative; }
 
-/* 토론 헤더 영역 */
-#new_hd .hd_con4 {
-    width: 100%;
+#new_hd .hd_con4 {background: #6DA9E0;  width: 100%;
     height: 100px;
-    position: relative;
-	background: #6DA9E0;
-}
+    position: relative; }
 
-/* 제안 헤더 영역 */
-#new_hd .hd_con5 {
-    width: 100%;
+#new_hd .hd_con5 {background: #EE9A6A;  width: 100%;
     height: 100px;
-    position: relative;
-	background: #EE9A6A;
-}
-/* 소개 헤더 영역 */
-#new_hd .hd_con6 {
-    width: 100%;
+    position: relative; }
+
+#new_hd .hd_con6 {background: #4D8DE7;  width: 100%;
     height: 100px;
-    position: relative;
-	background: #4D8DE7;
-}
+    position: relative; }
 
 
 #new_hd.hd_active .hd_con {
@@ -2024,3 +2004,16 @@ ol {
 
     .m_login_profil_wrap_r > ul > li > a {font-family: 'NanumSquareNeo-Variable',sans-serif; font-size:12px; font-weight:700; color:#333; letter-spacing:-0.01em;}
 }
+
+
+/* 탑버튼 영역 */
+.btn_box {padding-right: 5px;
+    padding-top: 10px;
+    position: absolute;
+    right: 0px;
+    top: -79px;}
+.btn_top_1 { width: 44px; height: 44px; border-radius: 50%; background-color: rgba(0,0,0,0.8); color: #fff; font-family: 'Roboto','Noto Sans Korean',sans-serif; letter-spacing: 1px; font-size: 12px; font-weight: 800; padding-top: 2px; transition: all .25s ease; position:relative; } /*display: flex; flex-direction: column; align-items: center; justify-content: center;*/
+.btn_top_1:hover,
+.btn_top_1:focus {background-color:#00A283;} /*background:rgba(0,0,0,1);*/
+.btn_top_1 .btn_txt { margin-top:6px; }
+.btn_top_1 i { position: absolute; top:9px; left: 50%; transform: translateX(-50%); transition: all .25s ease;}
