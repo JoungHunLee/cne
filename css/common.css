@@ -535,6 +535,15 @@ ol {
     transition: all .2s ease-in-out;
 }
 
+#new_hd.hd_active6 {
+    height: 400px;
+    background-color: #4D8DE7;
+    -webkit-box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+    cursor: auto;
+}
+
+
 #new_hd.active {
     position: fixed;
     height: 100px;
