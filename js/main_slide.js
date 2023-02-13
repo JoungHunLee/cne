@@ -24,6 +24,17 @@ $(function(){
       nextEl: "#slide_1 .control_btn_next",
       prevEl: "#slide_1 .control_btn_pre",
     },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+      },
+      1024: {
+        slidesPerView: 2,
+      },
+      1280: {
+        slidesPerView: 3,
+      },
+    },
   });
 
   var swiper2 = new Swiper(".content_section_2_slider_wrap", {
@@ -39,6 +50,21 @@ $(function(){
     navigation: {
       nextEl: "#slide_2 .control_btn_next",
       prevEl: "#slide_2 .control_btn_pre",
+    },
+    breakpoints: {
+      1600: {
+        slidesPerView: 4,
+      },
+      1024: {
+        centeredSlides: false,
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      520: {
+        slidesPerView: 1,
+      },
     },
   });
 
