@@ -25,7 +25,8 @@ body {
 }
 
 .container {
-    width: 1400px;
+    width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -944,7 +945,7 @@ ol {
     }
 }
 
-@media all and (max-width:999px) {
+@media all and (max-width:1025px) {
     #new_hd .hd_size>.logo>a>span {background:url('../images/common/mobile_logo01.png') no-repeat;}
     #new_hd .hd_size>.logo {
         margin-top: 11px !important;

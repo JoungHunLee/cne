@@ -33,3 +33,9 @@
 .footer_content {overflow:hidden;}
 .footer_content address {font-style: normal; font-size:15px; line-height:26px; letter-spacing:-0.5px; color:#fff; padding:70px 0; float:left; font-family: 'NanumSquareNeo-Variable',sans-serif;}
 .footer_content .footer_logo {float:right; padding:70px 0;}
+
+@media (max-width: 768px) {
+    .footer_content {display: flex;flex-wrap: wrap;flex-direction: column-reverse;}
+    .footer_content .footer_logo {padding: 48px 0 0;}
+    .footer_content address {padding: 24px 0 48px;}
+}
