@@ -524,7 +524,7 @@ ol {
 
 #new_hd {
     width: 100%;
-    height: 0%;
+    height: 100px;
     position: absolute;
     top: 0;
     left: 0;
