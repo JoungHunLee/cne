@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>충남교육청 들락날락 - 서치</title>
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../css/common.css"/>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="../css/style.css"/>
+
+    <!-- 리셋 css -->
+    <link rel="stylesheet" href="../css/reset.css"/>
+
+    <!-- 서브 css -->
+    <link rel="stylesheet" href="../css/sub.css"/>
+    <link rel="stylesheet" href="../css/sub_design.css"/>
+
+    <!-- jquery cdn -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/tab.js"></script>
+</head>
+<body>
+    <style>
+        .popup-delete {position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 90%;max-width: 836px;padding: 8vh 0px;background: #fff;border: 7px solid #AFAFAF;border-radius: 10px;text-align: center;}
+        .popup-delete__img {margin: 0 auto;}
+        .popup-delete__tit {display: block;margin: 30px 0 5vh;font-weight: 800;font-size: 32px;line-height: 100%;letter-spacing: -0.01em;color: #333;}
+        .popup-delete__btns .btn {display: inline-block;margin: 5px;padding: 24px 56px;background: #fff;border: 1px solid #333;border-radius: 74px;font-weight: 800;font-size: 20px;letter-spacing: -0.01em;color: #333;}
+        .popup-delete__btns .btn.on {background: #333;color: #fff;}
+    </style>
+
+    <div class="popup-delete">
+      <img class="popup-delete__img" src="../images/common/trash.png" alt="">
+      <strong class="popup-delete__tit">삭제하시겠습니까?</strong>
+      <div class="popup-delete__btns">
+        <button class="btn on">삭제하기</button>
+        <button class="btn">취소하기</button>
+      </div>
+    </div>
+</body>
+</html>
